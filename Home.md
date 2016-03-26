@@ -1,5 +1,10 @@
 Welcome to the rop wiki!
 
+Run ROP for all the samples at once :
+
+while read line; do ; python /u/home/s/serghei/code2/rop/rop.py --qsubArray --skipQC /u/home/b/brigitta/scratch/gtex/data/${line}.fasta $PWD/${line}; done<../samples_26.txt
+
+
 ls */*/*/run*sh | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
 
 cp <dirROPisInstalled>/myFuncFastWrapper.sh ./
