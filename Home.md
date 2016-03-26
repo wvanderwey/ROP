@@ -8,4 +8,8 @@ chmod 755 myFunc.sh
 
 chmod 755 */*/*/*sh
 wc -l 
-qsub -cwd -V -N ropTest -l h_data=16G,time=24:00:00 -t 1-21:1 myFuncFastWrapper.sh
+qsub -cwd -V -N ropGTEX -l h_data=16G,time=24:00:00 -t 1-11746:1 myFuncFastWrapper.sh
+
+----------------------------
+
+while read line; do ; python /u/home/s/serghei/code2/rop/rop.py --qsub --skipQC /u/home/b/brigitta/scratch/africa/data/${line}.fasta $PWD/${line}; done<../samples_26.txt
