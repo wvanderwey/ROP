@@ -12,7 +12,7 @@ chmod 755 myFunc.sh
 
 chmod 755 */*CR/*/*sh
 wc -l 
-qsub -cwd -V -N tophatS -l h_data=16G,time=24:00:00 -t 1-2100:1 myFuncFastWrapper.sh
+qsub -cwd -V -N rop -l h_data=16G,time=24:00:00 -t 1-2002:1 myFuncFastWrapper.sh
 
 ----------------------------
 
