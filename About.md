@@ -8,6 +8,7 @@ The UNIX tutorial is 9 hour video tutorial covering the basic concepts of UNIX o
 
 Alternatively you can follow the slides of the UNIX tutorial available here:
 * [Day 1](https://www.dropbox.com/s/ggv7ijwateim7zt/day1_Unix.pdf?dl=0)
-
+* [Day 2] (https://www.dropbox.com/s/xorsuvk1cugiyw8/day2_Unix.pdf?dl=0)
+* [Day 3] (https://www.dropbox.com/s/88wu7svvfur8upw/day3_Unix.pdf?dl=0)
 
 
