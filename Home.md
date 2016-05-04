@@ -31,12 +31,17 @@ The 'installation' takes 45 minutes on average and requires 30Gb of available sp
 
 ## Small Training Data
 
-Small training data is distributed with the ROP package and can assess under this directory:
+Small training data (3000 unmapped reads saved in <fastq> format) is distributed with the ROP package and can access under this directory:
 
  ```bash
 <dir>/rop/example/unmappedExample.fastq
 ``` 
 
+To test ROP for the small training data use the following command under the ROP directory:
+
+ ```bash
+rop.py example/unmappedExample.fastq example/<out>/```
+
+where <out> is the directory the results to be saved 
+ 
 ## Running the ROP
-
-
