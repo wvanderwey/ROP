@@ -29,7 +29,7 @@ python install.py
 
 The 'installation' takes 45 minutes on average and requires 30Gb of available space to download the refference. 
 
-## Quick start 
+## Toy example
 
 Small training data (3000 unmapped reads saved in <fastq> format) is distributed with the ROP package and can access under this directory:
 
@@ -37,7 +37,15 @@ Small training data (3000 unmapped reads saved in <fastq> format) is distributed
 <dir>/rop/example/unmappedExample.fastq
 ``` 
 
-To test ROP for the small training data use the following command under the ROP directory:
+ROP requires 2 command line parameters, i.e. the unmapped reads and the directory to save the results of ROP. 
+
+```
+usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
+                     [--circRNA] [--immune] [--gzip] [--quiet] [--dev]
+                     [--license]
+                     unmappedReads dir
+```
+To test ROP for the small training data use the following command under the ROP directory: 
 
  ```bash
 rop.py example/unmappedExample.fastq example/<out>/
