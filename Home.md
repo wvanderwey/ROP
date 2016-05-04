@@ -26,3 +26,17 @@ ROP requires the prepared refference databases for human and microbial sequences
 ```bash
 python install.py 
 ``` 
+
+The 'installation' takes 45 minutes on average and requires 30Gb of available space to download the refference. 
+
+## Small Training Data
+
+Small training data is distributed with the ROP package and can assess under this directory:
+
+ ```bash
+<dir>/rop/example/unmappedExample.fastq
+``` 
+
+## Running the ROP
+
+
