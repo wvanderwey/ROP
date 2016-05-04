@@ -40,7 +40,8 @@ Small training data (3000 unmapped reads saved in <fastq> format) is distributed
 To test ROP for the small training data use the following command under the ROP directory:
 
  ```bash
-rop.py example/unmappedExample.fastq example/<out>/```
+rop.py example/unmappedExample.fastq example/<out>/
+```
 
 where <out> is the directory the results to be saved 
  
