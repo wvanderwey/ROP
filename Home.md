@@ -16,8 +16,13 @@ Please do not hesitate to contact us if you have any comments, suggestions, or c
 
 ## How do I Install ROP?
 
-Get the latest release from [here](http://serghei.bioinformatics.ucla.edu/rop/).
+Please get the latest release from [here](http://serghei.bioinformatics.ucla.edu/rop/).
 
-The ROP comes with no pre-requirements. Instead ROP is distributed with several open source components that were developed by other groups (see section Third Party software from [here](http://serghei.bioinformatics.ucla.edu/rop/)). 
 
-No installation is required. However you need to download the refference databases for human and microbial sequences.  
+No installation is required. The ROP comes with no pre-requirements. Instead ROP is distributed with several open source components that were developed by other groups (see section Third Party software from [here](http://serghei.bioinformatics.ucla.edu/rop/)). 
+
+ROP requires the prepared refference databases for human and microbial sequences, which can be download as follows:
+
+```bash
+python install.py 
+``` 
