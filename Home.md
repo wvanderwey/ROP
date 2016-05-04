@@ -31,13 +31,13 @@ The 'installation' takes 45 minutes on average and requires 30Gb of available sp
 
 ## Toy example
 
-Small training data (3000 unmapped reads saved in <fastq> format) is distributed with the ROP package and can access under this directory:
+Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package and can access under this directory:
 
  ```bash
 <dir>/rop/example/unmappedExample.fastq
 ``` 
 
-ROP requires 2 command line parameters, i.e. the unmapped reads and the directory to save the results of ROP. 
+ROP requires 2 command line parameters, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP. 
 
 ```
 usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
@@ -45,15 +45,13 @@ usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
                      [--license]
                      unmappedReads dir
 ```
-To test ROP for the small training data use the following command under the ROP directory: 
+To test ROP for the small training data use the following command under the ROP directory, where results will be saved to example/<ropOut/ directory
 
  ```bash
 rop.py example/unmappedExample.fastq example/<out>/
 ```
 
-where <out> is the directory the results to be saved 
- 
-You expect the following output of the ROP pipeline:
+ You expect the following output of the ROP pipeline:
 
 ```
 *********************************************
