@@ -4,3 +4,7 @@ Read Origin Protocol (ROP) is a computational protocol aimed to discover the sou
 
 
 <img src="http://serghei.bioinformatics.ucla.edu/wp-content/uploads/sites/6/2015/10/rop.png" width="350">
+
+## How ROP works
+
+The ROP is able to explore both mapped and unmapped reads. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), STAR, etc)
