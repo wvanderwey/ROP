@@ -1,3 +1,1 @@
-“`bash
-python install.py –standard
-“`
+ROP is 
