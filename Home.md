@@ -8,7 +8,7 @@ Read Origin Protocol(ROP) is a computational protocol aimed to discover the sour
 
 ## Get started 
 This tutorial focuses on performing a comprehensive analysis analysis of unmapped reads to profile repeats, circRNAs, gene fusions, trans-splicing events, recombined B/T-cell receptor sequences and microbial communities. 
-This tutorial is a step-by-step description of the ROP (Read Origin Protocol) pipeline that can be explore the unmapped reads left from you study. 
+This tutorial is a step-by-step description of the ROP (Read Origin Protocol) pipeline to explore the unmapped reads left from you study. 
 
 We assumes you have a basic knowledge of sequence analysis and of Unix-based operating systems (although you should be able to run the pipeline on MacOS, some commands may require modification). If you have no or limited knowledge of UNIX, we encourage you to follow the [online tutorial](http://qcb.ucla.edu/collaboratory/workshops/collaboratory-workshop-1/) for UNIX . Python  is required to be installed on the cluster you are planning to perform the analysis.
 
