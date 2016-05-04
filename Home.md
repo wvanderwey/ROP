@@ -14,3 +14,7 @@ We assume you have a basic knowledge of sequence analysis and of Unix-based oper
 
 Please do not hesitate to contact us if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource. 
 
+How do I Install ROP?
+
+The ROP comes with no pre-requirements. Instead ROP is distributed with several open source components that were developed by other groups (see section Third Party software from [here](http://serghei.bioinformatics.ucla.edu/rop/)). 
+No installation is required. However you need to download the refference databases for 
