@@ -71,9 +71,8 @@ optional arguments:
   --version      Show ROP version
 ```
 
-More details about additional options and strategies of t
+More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
 
-or to this section about additional options and strategies
 
 ## ROP output details
 ## ROP analysis of single and multiple samples
