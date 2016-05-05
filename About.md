@@ -10,6 +10,14 @@ Read Origin Protocol (ROP) is a computational protocol aimed to discover the sou
 The ROP is able to explore both mapped(optional) and unmapped reads. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)). 
 
 ROP protocol consists of two steps to categorize the mapped reads:
-* 345345
-* Categorize human reads into genomic categories (CDS, UTR3/UTR5, intons, junctions, introns, etc).
-* We developed rprofile, a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs).
+* Categorize human reads into genomic categories (CDS, UTR3/UTR5, intons, junctions, introns, etc). 
+* Profile repeat elements (e.g. SINEs, LINEs, LTRs)
+
+ROP prococol consist of six steps to characterize the unmapped reads:
+
+*Quality control. Exclude low-quality, low-complexity and rRNA reads ([FASTX](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html), [SEQCLEAN](https://sourceforge.net/projects/seqclean/), Megablast )
+Identify lost human reads, which are missed due to the heuristics implemented for computational speed in conventional aligners. These include reads with mismatches and short gaps relative to the reference set, but can also include perfectly matched reads (Megablast)
+Identify lost repeat sequences, by mapping unmapped reads onto the database of repeat sequences (Megablast )
+Identify ‘non-co-linear’ RNAs reads from circRNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements (ncSplice, Bowtie2 , CIRI)
+Identify reads from recomobinations of B and T cell receptors i.e. V(D)J recombinations (IgBLAST)
+Profile taxonomic composition of microbial communities using the microbial reads mapped onto the microbial genomes and marker genes (Megablast, MetaPhlAn)
