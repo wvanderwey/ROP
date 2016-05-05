@@ -10,8 +10,8 @@ Read Origin Protocol (ROP) is a computational protocol aimed to discover the sou
 The ROP is able to explore both mapped(optional) and unmapped reads. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)). 
 
 ROP protocol consists of two steps to categorize the mapped reads:
-* We developed [gprofile](https://github.com/smangul1/gprofile), a  tools to categorize mapped reads into genomic categories (CDS, UTR, intons, etc).
-* We developed [rprofile](https://github.com/smangul1/rprofile), a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs).
+* We developed [gprofile](https://github.com/smangul1/gprofile), a  tools to categorize mapped reads into genomic categories (CDS, UTR, intons, etc)  (details)
+* We developed [rprofile](https://github.com/smangul1/rprofile), a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs)
 
 ROP protocol consist of six steps to characterize the unmapped reads:
 
@@ -21,3 +21,6 @@ ROP protocol consist of six steps to characterize the unmapped reads:
 * Identify ‘non-co-linear’ RNAs reads from circRNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements (ncSplice, [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) , [CIRI](https://github.com/Frenzchen/ncSplice))
 * Identify reads from recomobinations of B and T cell receptors i.e. V(D)J recombinations ([IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/))
 * Profile taxonomic composition of microbial communities using the microbial reads mapped onto the microbial genomes and marker genes ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/), [MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan))
+
+
+##Genomic profile of RNA-Seq
