@@ -121,9 +121,6 @@ genomicProfile
 repeatProfile
 ```
 
-#QC
-##Lost human reads 
-
 ## ROP analysis of multiple sample
 
 
