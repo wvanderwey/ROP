@@ -11,5 +11,5 @@ The ROP is able to explore both mapped(optional) and unmapped reads. Please mapp
 
 ROP protocol consists of two steps to categorize the mapped reads:
 * 345345
-** Categorize human reads into genomic categories (CDS, UTR3/UTR5, intons, junctions, introns, etc).
-** We developed rprofile, a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs).
+* Categorize human reads into genomic categories (CDS, UTR3/UTR5, intons, junctions, introns, etc).
+* We developed rprofile, a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs).
