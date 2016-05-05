@@ -9,7 +9,7 @@ Read Origin Protocol (ROP) is a computational protocol aimed to discover the sou
 
 The ROP is able to explore both mapped(optional) and unmapped reads. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)). 
 
-ROP protocol consists of two modules to categorize the mapped reads:
+ROP protocol consists of two optional modules to categorize the mapped reads:
 * Genomic profile of RNA-Seq. We developed [gprofile](https://github.com/smangul1/gprofile), a  tools to categorize mapped reads into genomic categories (CDS, UTR, intons, etc)  (details)
 * Profile of repeat elements. We developed [rprofile](https://github.com/smangul1/rprofile), a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs)
 
