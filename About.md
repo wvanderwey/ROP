@@ -113,7 +113,7 @@ Identify lost repeat sequences, by mapping unmapped reads onto the [database](ht
 
 ## Step 4. Non-co-linear (NCL) RNA profiling
 
-Identify ‘non-co-linear’ RNAs reads from circular RNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements [ncSplice](https://github.com/Frenzchen/ncSplice)
+Identify ‘non-co-linear’ RNAs reads from circular RNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements ([ncSplice](https://github.com/Frenzchen/ncSplice))
 
 * read spliced distantly on the same chromosome supports trans-splicing event
 * read spliced across different chromosomes supports gene fusion event
@@ -121,5 +121,7 @@ Identify ‘non-co-linear’ RNAs reads from circular RNAs, gene fusions, and tr
 
 ##. B and T lymphocytes profiling
 
-Identify reads from recombinations of B and T cell receptors i.e. V(D)J recombinations ([IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/))
+Reads entirely aligned to B cell receptors (BCR) and T cell receptors (TCR)  genes are extracted from the mapped reads (.bam). Reads with extensive somatic hyper mutations (SHM) and reads arising from V(D)J recombination are identified by  ([IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/)) from the unmapped reads. 
+
+
 
