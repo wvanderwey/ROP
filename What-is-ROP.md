@@ -125,8 +125,11 @@ We identify:
 
 Mapped and unmapped reads are used to survey the human antibody repertoire. Reads entirely aligned to B cell receptors (BCR) and T cell receptors (TCR)  genes are extracted from the mapped reads (.bam). Reads with extensive somatic hyper mutations (SHM) and reads arising from V(D)J recombination are identified by  [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/) from the unmapped reads (.fastq or .bam). 
 
+Thus reads mapped to the constant regions of the antigen receptors allows to assess the relative proportions of   
+major antibodies classes. For example, based on mapped reads ROP estimates the relative proportions of the main antibody isotypes (IgA, IgD, IgE, IgG, and IgM).
+
+
 ##Step 6. Microbiome profiling
 
 The remaining unmapped reads are potentially microbial in origin.  We use microbial genomes ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)) and phylogenetic marker genes ([MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan)) to identify microbial reads and assign them to corresponding taxa. Microbial reads could have been introduced by contamination or the natural microbiome of the samples, which includes viral, bacterial, or other microbial species. 
-
 
