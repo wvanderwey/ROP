@@ -71,6 +71,21 @@ optional arguments:
   --version      Show ROP version
 ```
 
+The ROP pipeline consist of two optional modules to characterize the mapped reads. To activate the genomic profile module, use --gprofile option. To activate the genomic profile module, use --rprofile option. Make sure to provide the mapped reads in .bam format. TO download the mapped reads in .bam format use this command 
+
+
+```
+cd tutorial/data/
+wget (to fix)
+```
+
+After the bam file was downloaded run the following ROP command 
+
+```
+python rop.py --gprofile --rprofile --mapped tutorial/data/mapped_SR_1146076.bam tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
+```
+
+
 More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
 
 
@@ -97,6 +112,12 @@ The ROP output consist of six directories corresponding to six steps of the ROP 
 * immune
 * microbiome
 
+The output of two option modules is saved here
+
+* genomicProfile. Output of the genomic profile module
+* repeatProfile. Output of the repeat profile module
+
+ 
 
 ## ROP analysis of single and multiple samples
 
