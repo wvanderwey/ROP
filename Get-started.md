@@ -33,7 +33,7 @@ usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
 To test ROP for the small training data use the following command under the ROP directory, where results will be saved to example/ropOut/ directory
 
 ```
-rop.py example/unmappedExample.fastq example/ropOut/
+python rop.py example/unmappedExample.fastq example/ropOut/
 ```
 
 You expect the following output of the ROP pipeline:
