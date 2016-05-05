@@ -12,26 +12,26 @@ Please do not hesitate to contact us (smangul@ucla.edu) if you have any comments
 
 Please get the latest release from [here](http://serghei.bioinformatics.ucla.edu/rop/).
 
-No installation is required. The ROP comes with no pre-requirements except Python. Python is required to be installed on the cluster you are planning to perform the analysis.ROP is distributed with several open source components that were developed by other groups (see section Third Party software from here).
+No installation is required. The ROP comes with no pre-requirements except Python. Python is required to be installed on the cluster you are planning to perform the analysis. ROP is distributed with several open source components that were developed by other groups (see section Third Party software from [here](http://serghei.bioinformatics.ucla.edu/rop/)).
 
-ROP requires the prepared refference databases for human and microbial sequences, which can be download as follows:
+ROP requires the prepared reference databases for human and microbial sequences, which can be download as follows:
 
 ```
 python install.py
 ```
  
-The 'installation' takes 45 minutes on average and requires 30Gb of available space to download the refference.
+The 'installation' takes 45 minutes on average and requires 30Gb of available space to download the references.
 
 
 ##Toy example
 
-Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package and can access under this directory:
+Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package and can access under ROP directory:
 
 ```
-<dir>/rop/example/unmappedExample.fastq
+/rop/example/unmappedExample.fastq
 ```
 
-ROP requires two command line parameters, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP.
+ROP requires two mandatory command line arguments, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP.
 
 ```
 usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
@@ -64,7 +64,7 @@ Processing 2505 unmapped reads
 In toto : 2217 reads failed QC and are filtered out
 2. Remaping to human references...
 --identified 6 lost human reads from unmapped reads 
-3. Maping to repeat sequences...
+3. Mapping to repeat sequences...
 -Identify 1 lost repeat sequences from unmapped reads
 ***Note : Repeat sequences classification into classes (e.g. LINE) and families (e.g. Alu) will be available in next release
 3. Non-co-linear RNA profiling
