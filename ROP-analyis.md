@@ -7,20 +7,26 @@ Please make sure that the basic unix commands (wget, tar) are available on the c
 
 The size of the original reads (.fastq) is 6.5G. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)). Please save the unmapped reads in .fastq (text format) or .bam (binary file, requires less space) formats.  
 
-The instructions how to map the reads and save the unmapped reads are provided here. 
+The instructions how to map the reads and save the unmapped reads are provided [here](https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads). 
 
 The size of the unmapped reads in .fastq format is  1.4G. The size of the unmapped reads in .bam format is 0.3G
 The size of the mapped reads (.bam) is 1.2G. 
 
 
-The first operation consists in obtaining the last version of ROP from [here](http://serghei.bioinformatics.ucla.edu/rop/), which can be downloaded as zip, gz, or bz2 compressed archives. In a Unix environment, you can obtain and uncompress it from the command line:
+The first operation consists in obtaining the last version of ROP from [here](http://serghei.bioinformatics.ucla.edu/rop/), which can be downloaded as zip or tar.gz compressed archives. In a Unix environment, you can obtain and uncompress it from the command line:
 
 ```
-$ wget https://github.com/smangul1/rop/archive/v0.2.tar.gz
-$ tar -zxvf v0.2.tar.gz
-$ mv rop-* rop
+wget https://github.com/smangul1/rop/archive/v0.2.tar.gz
+tar -zxvf v0.2.tar.gz
+mv rop-* rop
 ```
 
+We then navigate to the ROP directory and create a subdirectory for storing mapped and unmapped reads of RNA-Seq sample
+
+```
+cd rop
+mkdir input
+```
 
 
 ## ROP output details
