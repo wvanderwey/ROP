@@ -115,6 +115,8 @@ Identify lost repeat sequences, by mapping unmapped reads onto the [database](ht
 
 Identify ‘non-co-linear’ RNAs reads from circular RNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements ([ncSplice](https://github.com/Frenzchen/ncSplice))
 
+We identify:
+
 * read spliced distantly on the same chromosome supports trans-splicing event
 * read spliced across different chromosomes supports gene fusion event
 * reads spliced in a head-to-tail configuration supports circRNAs
