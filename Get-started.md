@@ -25,7 +25,8 @@ The 'installation' takes 45 minutes on average and requires 30Gb of available sp
 
 ##Toy example
 
-Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package and can access under ROP directory:
+Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note 
+that selected reads are randomly selected and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory:
 
 ```
 /rop/example/unmappedExample.fastq
