@@ -120,7 +120,9 @@ The output of two option modules is saved here
 genomicProfile
 repeatProfile
 ```
- 
+
+#QC
+##Lost human reads 
 
 ## ROP analysis of multiple sample
 
