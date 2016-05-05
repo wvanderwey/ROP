@@ -7,4 +7,9 @@ Read Origin Protocol (ROP) is a computational protocol aimed to discover the sou
 
 ## How ROP works
 
-The ROP is able to explore both mapped and unmapped reads. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), STAR, etc)
+The ROP is able to explore both mapped(optional) and unmapped reads. Please mapped the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)). 
+
+ROP protocol consists of two steps to categorize the mapped reads:
+
+*Categorize human reads into genomic categories (CDS, UTR3/UTR5, intons, junctions, introns, etc).
+*We developed rprofile, a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs).
