@@ -98,7 +98,7 @@ Reads are clarified into the following families:
 
 ## Step 1. Quality control
 
-ROP filters out low quality, low complexity (e.g. ACACACAC...), and rRNA reads
+Filter out low quality, low complexity (e.g. ACACACAC...), and rRNA reads
 
 * low quality reads are identified by [FASTX](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html). Low quality reads are defined as reads that have quality lower than 30 in at least 75% of their base pairs
 * Low complexity are identified by [SEQCLEAN](https://sourceforge.net/projects/seqclean/)
