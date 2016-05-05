@@ -21,13 +21,23 @@ tar -zxvf v0.2.tar.gz
 mv rop-* rop
 ```
 
-We then navigate to the ROP directory and create a subdirectory for storing mapped and unmapped reads of RNA-Seq sample
+We then navigate to the ROP directory and download the ref
+
+and create a subdirectory for storing mapped and unmapped reads of RNA-Seq sample
 
 ```
 cd rop
 mkdir input
 ```
 
+Now, download the mapped and unmapped reads from RNA-Seq
+
+```
+wget http://downloads.hmpdacc.org/data/Illumina/buccal_mucosa/${s}.tar.bz2 -O input/${s}.tar.bz2
+
+```
+
+This operation will likely require several hours.
 
 ## ROP output details
 ## ROP analysis of single and multiple samples
