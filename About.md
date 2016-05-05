@@ -119,9 +119,9 @@ Identify ‘non-co-linear’ RNAs reads from circular RNAs, gene fusions, and tr
 * read spliced across different chromosomes supports gene fusion event
 * reads spliced in a head-to-tail configuration supports circRNAs
 
-##. B and T lymphocytes profiling
+##B and T lymphocytes profiling
 
-Reads entirely aligned to B cell receptors (BCR) and T cell receptors (TCR)  genes are extracted from the mapped reads (.bam). Reads with extensive somatic hyper mutations (SHM) and reads arising from V(D)J recombination are identified by  [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/) from the unmapped reads. 
+Mapped and unmapped reads are used to survey the human antibody repertoire. Reads entirely aligned to B cell receptors (BCR) and T cell receptors (TCR)  genes are extracted from the mapped reads (.bam). Reads with extensive somatic hyper mutations (SHM) and reads arising from V(D)J recombination are identified by  [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/) from the unmapped reads (.fastq or .bam). 
 
 
 
