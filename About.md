@@ -41,3 +41,58 @@ Those are the categories of the genomic profile:
 ##Profile of repeat elements 
 
 We developed [rprofile](https://github.com/smangul1/rprofile) to categorize the mapped reads into repeat categories based on the compatibility of each read with repeat instances defined by [RepeatMasker](http://www.repeatmasker.org/) [[more details] (http://serghei.bioinformatics.ucla.edu/rop/repeats/)]
+
+Reads are clarified into the following classes: 
+
+* LINE
+* LTR
+* RC
+* SVA
+* RNA
+* Satellite
+* SINE
+
+Reads are clarified into the following families: 
+* acro
+* Alu
+* centr
+* CR1
+* Deu
+* DNA
+* Dong-R4
+* ERV
+* ERV1
+* ERVK
+* ERVL
+* ERVL-MaLR
+* Gypsy
+* hAT
+* hAT-Blackjack
+* hAT-Charlie
+* hAT-Tip100
+* Helitron
+* L1
+* L2
+* LTR
+* Merlin
+* MIR
+* MuDR
+* Penelope
+* PiggyBac
+* RNA
+* RTE
+* RTE-BovB
+* Satellite
+* SINE
+* SVA_A
+* SVA_B
+* SVA_C
+* SVA_D
+* SVA_E
+* SVA_F
+* TcMar
+* TcMar-Mariner
+* TcMar-Tc2
+* TcMar-Tigger
+* telo
+
