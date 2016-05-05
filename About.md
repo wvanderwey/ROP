@@ -38,3 +38,6 @@ Those are the categories of the genomic profile:
 * read mapped to mitochondrial DNA is classified as a mitochondrial read
 * reads from a pair mapped to different chromosomes are classified as a fusion reads
 
+##Profile of repeat elements 
+
+We developed [rprofile](https://github.com/smangul1/rprofile) to categorize the reads into repeat categories based on the compatibility of each read with repeat instances defined by [RepeatMasker](http://www.repeatmasker.org/). The [[more details] (http://serghei.bioinformatics.ucla.edu/rop/repeats/)]
