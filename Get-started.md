@@ -10,18 +10,7 @@ Please do not hesitate to contact us (smangul@ucla.edu) if you have any comments
 
 #How to install ROP?
 
-Please get the latest release from [here](http://serghei.bioinformatics.ucla.edu/rop/).
-
-No installation is required. The ROP comes with no pre-requirements except Python. Python is required to be installed on the cluster you are planning to perform the analysis. ROP is distributed with several open source components that were developed by other groups (see section Third Party software from [here](http://serghei.bioinformatics.ucla.edu/rop/)).
-
-ROP requires the prepared reference databases for human and microbial sequences, which can be download as follows:
-
-```
-python install.py
-```
- 
-The 'installation' takes 45 minutes on average and requires 30Gb of available space to download the references.
-
+Details are [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
 
 ##Toy example
 
