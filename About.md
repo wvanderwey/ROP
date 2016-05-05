@@ -125,8 +125,6 @@ Mapped and unmapped reads are used to survey the human antibody repertoire. Read
 
 ##Step 6. Microbiome profiling
 
-The remaining unmapped reads are potentially microbial in origin.  We use microbial genomes ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)) and phylogenetic marker genes ([MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan)) to identify microbial reads and assign them to corresponding taxa. Microbial reads could have been introduced by contamination or the natural microbiome of the samples, which includes viral, bacterial, archeal, or other microbial species. 
-
-
+The remaining unmapped reads are potentially microbial in origin.  We use microbial genomes ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)) and phylogenetic marker genes ([MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan)) to identify microbial reads and assign them to corresponding taxa. Microbial reads could have been introduced by contamination or the natural microbiome of the samples, which includes viral, bacterial, or other microbial species. 
 
 
