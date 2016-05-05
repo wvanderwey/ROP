@@ -29,8 +29,8 @@ We developed [gprofile](https://github.com/smangul1/gprofile) to categorize the 
 
 Those are the categories of the genomic profile:  
 
-* read mapped to multiple locations on the reference genome is categorized as a **multi-mapped** read
-* read fully contained within the CDS, intron, UTR3, or UTR5 boundaries of a least one transcript is classified as a **CDS, intronic, UTR3, or UTR5**, respectively.
+* read mapped to multiple locations on the reference genome is categorized as a multi-mapped read
+* read fully contained within the CDS, intron, UTR3, or UTR5 boundaries of a least one transcript is classified as a CDS, intronic, UTR3, or UTR5, respectively.
 * read simultaneously overlapping UTR3 and UTR5 regions is classified as a UTR read.
 * read spanning exon-exon boundary is defined as a junction read.
 * read mapped outside of gene boundaries and within a proximity of 1Kb is defined as a (proximal) inter-genic read
