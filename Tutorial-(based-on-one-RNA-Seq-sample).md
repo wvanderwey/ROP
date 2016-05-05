@@ -105,12 +105,15 @@ The directory contains individual directions for each individual analysis. For e
 
 The ROP output consist of six directories corresponding to six steps of the ROP protocol.
 
+```
 * QC
 * lostHumanReads
 * lostRepeatSequences
 * NCL (non-co-linear RNA)
 * immune
 * microbiome
+
+```
 
 The output of two option modules is saved here
 
