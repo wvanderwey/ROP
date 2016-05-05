@@ -114,10 +114,11 @@ The ROP output consist of six directories corresponding to six steps of the ROP 
 
 The output of two option modules is saved here
 
-* genomicProfile. Output of the genomic profile module
-* repeatProfile. Output of the repeat profile module
+* genomicProfile
+* repeatProfile
 
  
 
-## ROP analysis of single and multiple samples
+## ROP analysis of multiple sample
+
 
