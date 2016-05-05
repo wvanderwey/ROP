@@ -74,7 +74,7 @@ optional arguments:
 More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
 
 
-The ropOut directory now contains the output of ROP. The ROP output is explained in next section. 
+The ropOut directory now contains the output of ROP. The structure of the output is explained in next section. 
 
 ## ROP output details
 
@@ -87,6 +87,15 @@ cd /tutorial/ropOut/
 ```
 
 The directory contains individual directions for each individual analysis. For example there is a separate directory with the analysis of the antibody repertoire. 
+
+The ROP output consist of six directories corresponding to six steps of the ROP protocol.
+
+* QC
+* lostHumanReads
+* lostRepeatSequences
+* NCL (non-co-linear RNA)
+* immune
+* microbiome
 
 
 ## ROP analysis of single and multiple samples
