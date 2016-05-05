@@ -110,3 +110,11 @@ Identify lost human reads, which are missed due to the heuristics implemented fo
 
 ## Step 3. Map to repeat sequences
 Identify lost repeat sequences, by mapping unmapped reads onto the [database](http://www.girinst.org/repbase/) of repeat sequences using [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) 
+
+## Step 4. Non-co-linear (NCL) RNA profiling
+
+Identify ‘non-co-linear’ RNAs reads from circular RNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements [ncSplice](https://github.com/Frenzchen/ncSplice)
+
+* read spliced distantly on the same chromosome supports trans-splicing event
+* read spliced across different chromosomes supports gene fusion event
+* reads spliced in a head-to-tail configuration supports circRNAs
