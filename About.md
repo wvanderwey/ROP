@@ -109,4 +109,4 @@ ROP filters out low quality, low complexity (e.g. ACACACAC...), and rRNA reads
 Identify lost human reads, which are missed due to the heuristics implemented for computational speed in conventional aligners. These include reads with mismatches and short gaps relative to the reference set, but can also include perfectly matched reads 
 
 ## Step 3. Map to repeat sequences
-Identify lost repeat sequences, by mapping unmapped reads onto the [database]((http://www.girinst.org/repbase/). ) of repeat sequences using [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) 
+Identify lost repeat sequences, by mapping unmapped reads onto the [database](http://www.girinst.org/repbase/) of repeat sequences using [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) 
