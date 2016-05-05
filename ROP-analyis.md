@@ -41,9 +41,10 @@ To run ROP for unmapped reads in .fastq format
 python rop.py  tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
 ```
 
-Please refer to the ROP help ($ python rop.py -h) or to the section about additional options and strategies
+Please refer to the ROP help ($ python rop.py -h) 
 
 ```
+python rop.py -h
 usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
                      [--circRNA] [--immune] [--gzip] [--quiet] [--dev]
                      [--license] [--version]
@@ -70,7 +71,9 @@ optional arguments:
   --version      Show ROP version
 ```
 
+More details about additional options and strategies of t
 
+or to this section about additional options and strategies
 
 ## ROP output details
 ## ROP analysis of single and multiple samples
