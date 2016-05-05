@@ -41,6 +41,37 @@ To run ROP for unmapped reads in .fastq format
 python rop.py  tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
 ```
 
+Please refer to the ROP help ($ python rop.py -h) or to the section about additional options and strategies
+
+```
+usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
+                     [--circRNA] [--immune] [--gzip] [--quiet] [--dev]
+                     [--license] [--version]
+                     unmappedReads dir
+
+positional arguments:
+  unmappedReads  unmapped Reads in the fastq format
+  dir            directory (absolute path) to save results of the analysis
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --qsub         submit qsub jobs on hoffman2 cluster
+  --qsubArray    prepare qsub scripts to be run later using job array
+  --b            if unmapped reads are in bam format
+  --skipLowq     skip filtering step
+  --skipQC       skip entire QC step : filtering low-quality, low-complexity
+                 and rRNA reads (reads matching rRNA repeat unit)
+  --circRNA      enable CIRI for circular RNA detection
+  --immune       Only TCR/BCR immune gene analysis will be performed
+  --gzip         Gzip the fasta files after filtering step
+  --quiet        suppress progress report and warnings
+  --dev          keep intermediate files
+  --license      Show ROP License Information
+  --version      Show ROP version
+```
+
+
+
 ## ROP output details
 ## ROP analysis of single and multiple samples
 
