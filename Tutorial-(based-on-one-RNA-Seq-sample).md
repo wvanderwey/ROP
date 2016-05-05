@@ -74,6 +74,20 @@ optional arguments:
 More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
 
 
+The ropOut directory now contains the output of ROP. The ROP output is explained in next section. 
+
 ## ROP output details
+
+After running the ROP output is saved in a single directory (specified as a second command line argument). After running ROP in the previous section, output was saved in the ropOut directory. 
+
+To navigate to the ropOut directory use this command 
+
+```
+cd /tutorial/ropOut/
+```
+
+The directory contains individual directions for each individual analysis. For example there is a separate directory with the analysis of the antibody repertoire. 
+
+
 ## ROP analysis of single and multiple samples
 
