@@ -1,4 +1,4 @@
-[Link-name2](##What is ROP?)
+[Genomic profile of RNA-Seq](##Genomic profile of RNA-Seq)
 
 ## What is ROP?
 
