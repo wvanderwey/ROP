@@ -28,11 +28,18 @@ Now, download the mapped and unmapped reads from RNA-Seq
 wget (to fix)
 ```
 
-Now we are ready to analyze the RNA-Seq sample using ROP. We are running ROP using the default options. ROP is an intensive pipeline requiring substantial amount of computations resources. Thus you aren't supposed to run ROP from login nodes (expect running ROP for toy sample as described [here](https://github.com/smangul1/rop/wiki/Get-started)). Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
+Now we are ready to analyze the RNA-Seq sample using ROP. We are running ROP using the default options. ROP is an intensive pipeline requiring substantial amount of computations resources. Thus you aren't supposed to run ROP from login nodes (expect running ROP for toy sample as described [here](https://github.com/smangul1/rop/wiki/Get-started)). Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions).  ROP has advanced options to parallelize the ROP analysis by scheduling multiple computing jobs. More details about advances options are available [here](https://github.com/smangul1/rop/wiki/Advanced-options).
 
-ROP has advanced options to paralyze the analysis by scheduling multiple computing jobs. More details about advances options are available [here](https://github.com/smangul1/rop/wiki/Advanced-options).
+To run ROP for unmapped reads in .bam format 
+```
+python rop.py --b tutorial/data/unmapped_SR_1146076.bam /tutorial/ropOut/
+```
 
+To run ROP for unmapped reads in .fastq format 
 
+```
+python rop.py  tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
+```
 
 ## ROP output details
 ## ROP analysis of single and multiple samples
