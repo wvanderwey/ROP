@@ -24,3 +24,17 @@ ROP protocol consist of six steps to characterize the unmapped reads:
 
 
 ##Genomic profile of RNA-Seq
+
+We developed [gprofile](https://github.com/smangul1/gprofile) to categorize the reads into genomic categories based on the compatibility of each read with the features defined by gene annotations. Genomic profile can be used to benchmark different sequencing platform and library preparation methods, as well as assess the efficiency of rRNA depletion and level of the sample degradation.  
+
+Those are the categories of the genomic profile:  
+
+a.	Read mapped to multiple locations on the reference genome is categorized as a multi-mapped read.
+b.	Read fully contained within the CDS, intron, UTR3, or UTR5 boundaries of a least one transcript is classified as a CDS, intronic, UTR3, or UTR5, respectively.
+c.	Read simultaneously overlapping UTR3 and UTR5 regions is classified as a UTR read.
+d.	Read spanning exon-exon boundary is defined as a junction read.
+e.	Read mapped outside of gene boundaries and within a proximity of 1Kb is defined as a (proximal) inter-genic read.
+f.	Read mapped outside of gene boundaries and beyond the proximity of 1Kb is defined as a deep inter-genic read.
+g.	Read contained within mitochondrial DNA (MT tag in hg19) is classified as a mitochondrial read.
+h.	Read which has a pair which two ends are mapped to different chromosomes is classified as a fusion read.
+
