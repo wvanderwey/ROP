@@ -25,7 +25,7 @@ ROP protocol consist of six steps to characterize the unmapped reads:
 
 ##Genomic profile of RNA-Seq
 
-We developed [gprofile](https://github.com/smangul1/gprofile) to categorize the reads into genomic categories based on the compatibility of each read with the features defined by gene annotations. Genomic profile can be used to benchmark different sequencing platform and library preparation methods, as well as assess the efficiency of rRNA depletion and level of the sample degradation.  
+We developed [gprofile](https://github.com/smangul1/gprofile) to categorize the mapped reads into genomic categories based on the compatibility of each read with the features defined by gene annotations. Genomic profile can be used to benchmark different sequencing platform and library preparation methods, as well as assess the efficiency of rRNA depletion and level of the sample degradation.  
 
 Those are the categories of the genomic profile:  
 
@@ -40,4 +40,4 @@ Those are the categories of the genomic profile:
 
 ##Profile of repeat elements 
 
-We developed [rprofile](https://github.com/smangul1/rprofile) to categorize the reads into repeat categories based on the compatibility of each read with repeat instances defined by [RepeatMasker](http://www.repeatmasker.org/). The [[more details] (http://serghei.bioinformatics.ucla.edu/rop/repeats/)]
+We developed [rprofile](https://github.com/smangul1/rprofile) to categorize the mapped reads into repeat categories based on the compatibility of each read with repeat instances defined by [RepeatMasker](http://www.repeatmasker.org/) [[more details] (http://serghei.bioinformatics.ucla.edu/rop/repeats/)]
