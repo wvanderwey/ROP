@@ -135,3 +135,5 @@ An example of the unmapped read aligned to the immunoglobulin heavy variable 1-4
 V       SRR1146076.56325        IGHV1-46*01     93.67   79      5       0       0       1       79      203     281     7e-27     109
 ```
 
+## microbiomeProfile directory
+
