@@ -121,6 +121,5 @@ genomicProfile
 repeatProfile
 ```
 
-## ROP analysis of multiple sample
 
 
