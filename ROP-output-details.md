@@ -19,4 +19,5 @@ drwxr-xr-x 4 serghei eeskin  4096 May  5 14:24 repeatProfile
 ```
 
 
-### Quality control 
+### QC directory
+### lostHumanReads directory
