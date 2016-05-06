@@ -137,7 +137,7 @@ V       SRR1146076.56325        IGHV1-46*01     93.67   79      5       0       
 
 ## microbiomeProfile directory
 
-This directory contains the output of [Step 6. Microbiome profiling](https://github.com/smangul1/rop/wiki/What-is-ROP%3F). It contains a separate directory for each class of microbial organisms. 
+This directory contains the output of [Step 6. Microbiome profiling](https://github.com/smangul1/rop/wiki/What-is-ROP%3F). It contains a separate directory for each class of microbial organisms. Reads mapped to the microbial genomes are saved in `_blastFormat6.csv`. Reads are further filter to save high confident alignments in `Filtered_blastFormat6.csv`
 
 * viralProfile
 * bacteriaProfile
