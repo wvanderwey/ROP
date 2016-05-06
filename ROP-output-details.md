@@ -173,9 +173,9 @@ It will estimate relative proportions of repeat categories (e.g. LINE. SINE, LTR
 
 The ROP provided three levels of repeat profile, i.e class level (e.g SINE, LINE); family level (e.g. Alu, L1); gene level (e.g. L1P4c). Those the output files created for each level 
 
-* Class level : `<sampleName>_repeat.repeatClass.csv`
+* Class level  : `<sampleName>_repeat.repeatClass.csv`
 * Family level : `<sampleName>_repeat.repeatFamily.csv`
-* gene level : `<sampleName>_repeat.repeatGene.csv`
+* Gene level   : `<sampleName>_repeat.repeatGene.csv`
 
 
 
