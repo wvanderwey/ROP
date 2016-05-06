@@ -168,3 +168,14 @@ It will estimate relative proportions of genomic categories (e.g. CDS, introns) 
 * fusion reads
 
 ROP has the functionality to output the genomic feature for each mapped read, which can be saved into a separate file. Be aware that it might take the significant space from the cluster. More details are [here](https://github.com/smangul1/rop/wiki/Additional-options)
+
+It will estimate relative proportions of repeat categories (e.g. LINE. SINE, LTR) based on the number of reads from the category. More details about the repeat categories used by ROP are [here](https://github.com/smangul1/rop/wiki/What-is-ROP%3F/)
+
+The ROP generates three output files:
+* `<sampleName>_repeat.repeatClass.csv`
+* `<sampleName>_repeat.repeatFamily.csv`
+* `<sampleName>_repeat.repeatGene.csv`
+
+
+
+
