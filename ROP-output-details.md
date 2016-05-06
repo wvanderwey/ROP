@@ -66,9 +66,9 @@ The directory contains the output of Step 2 (Remap to human sequences).  The los
 
 The directory contains the output of Step 3 (Map to repeat sequences). Reads mapped to the repeat sequences are saved into the  `_blastFormat6.csv` in [tabular output format 6](http://www.metagenomics.wiki/tools/blast/blastn-output-format-6).
 
-n | | What does it mean? 
+n | nbnb| What does it mean? 
 :- | :-- | :--
-1 | |read name  
+1 |bnb |read name  
 2 | |reference genome   
 3 | |percentage of identical matches  
 4 | |alignment length
