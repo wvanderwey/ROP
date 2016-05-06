@@ -59,5 +59,9 @@ The reads failed QC are filtered out and the remaining reads are passed to the n
 
 ### lostHumanReads directory
 
-The directory contains the output of Step 2 (Remap to human sequences).  It contains details about the number of unmapped reads mapped to the human references (lost human reads). The lost human reads mapped to the human reference genome are saved into the `_genome.sam` and reads mapped to the transcriptome reference are saved into the `_transcriptome.sam`.
+The directory contains the output of Step 2 (Remap to human sequences).  The lost human reads mapped to the human reference genome are saved into the `_genome.sam` and reads mapped to the transcriptome reference are saved into the `_transcriptome.sam`.
 
+
+### lostRepeatSequences directory
+
+The directory contains the output of Step 3 (Map to repeat sequences). Reads mapped to the repeat sequences are saved into the  `_blastFormat6.csv` in [tabular output format 6](http://www.metagenomics.wiki/tools/blast/blastn-output-format-6).
