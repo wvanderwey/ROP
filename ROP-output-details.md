@@ -55,6 +55,6 @@ Identified 22 reads mapped to rRNA repeat sequence
 ```
 
 The reads failed QC are filtered out and the remaining reads are passed to the next step of the ROP analysis. 
-In case you are interested in unmapped reads with reads failed QC filtered, please use --dev option to save the afterQC.fastq 
+
 
 ### lostHumanReads directory
