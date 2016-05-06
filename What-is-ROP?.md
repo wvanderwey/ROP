@@ -38,7 +38,7 @@ Those are the categories of the genomic profile:
 * read mapped to mitochondrial DNA is classified as a mitochondrial read
 * reads from a pair mapped to different chromosomes are classified as a fusion reads
 
-Given the assignment of reads into the genomic categories ROP will estimate relative proportions of the categories  based on the number of reads from the category. 
+Given the assignment of reads into the genomic categories, ROP will estimate relative proportions of the categories  based on the number of reads from the category. 
 
 
 ##Profile of repeat elements 
@@ -101,7 +101,7 @@ Reads are categorized into the following families:
 
 Read are categorized into the individual repeat instances (e.g. L1P4c). 
 
-Given the assignment of reads into the individual repeat categories ROP will estimate relative proportions of the categories  based on the number of reads from the category. 
+Given the assignment of reads into the individual repeat categories, ROP will estimate relative proportions of the categories  based on the number of reads from the category. 
 
 
 ## Step 1. Quality control
