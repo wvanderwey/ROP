@@ -81,3 +81,13 @@ n | id| What does it mean?
  10|	 send	| end of alignment in subject
  11|	 evalue	| expect value
  12|	 bitscore	| bit score
+
+## NCL directory
+
+This directory contains the output of Step 4 (Non-co-linear (NCL) RNA profiling). More details will be posted soon
+
+## immune directory
+
+This directory contains the output of Step 5 (B and T lymphocytes profiling). It contains a separate directory for B cell receptors `BCR directory` and a separate directory for T cell receptor `TCR directory`. 
+
+
