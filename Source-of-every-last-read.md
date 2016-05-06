@@ -54,8 +54,10 @@ Summary:   The ROP protocol is able to account for 2231 reads
 
 Additionally ROp creates ``numberReads_<sampleName>.log`` with the number of reads detected in each step in the `.csv` format. 
 
-An example of ``numberReads_<sampleName>.log``. Given multiple ROP experiments for differnt sample, you may consider concatenate the ``numberReads_<sampleName>.log`` to get the statistics across multiple samples. Detail instructions are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-multiple-samples).
+An example of ``numberReads_<sampleName>.log``.
 
 ```
 unmappedExample,2505,2193,2,22,6,1,0,7
 ```
+
+Given ROP analysis for multiple sample, you may consider concatenate the individual ``numberReads_<sampleName>.log`` to get the statistics across multiple samples. Detail instructions are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-multiple-samples
