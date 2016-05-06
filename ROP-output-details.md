@@ -59,7 +59,5 @@ The reads failed QC are filtered out and the remaining reads are passed to the n
 
 ### lostHumanReads directory
 
-The directory contains the output of Step 2 (Remap to human sequences).  It contains details about the number of unmapped reads mapped to the human references (lost human reads). The lost human reads mapped to the human reference genome are saved into the `_genome.sam` and reads mapped to the transcriptome reference are saved into the `_transcriptome.sam`
-
-are saved in the .sam format.   
+The directory contains the output of Step 2 (Remap to human sequences).  It contains details about the number of unmapped reads mapped to the human references (lost human reads). The lost human reads mapped to the human reference genome are saved into the `_genome.sam` and reads mapped to the transcriptome reference are saved into the `_transcriptome.sam`.
 
