@@ -178,5 +178,11 @@ The ROP provided three levels of repeat profile, i.e class level (e.g SINE, LINE
 * Gene level   : `<sampleName>_repeat.repeatGene.csv`
 
 
+An example of the repeat profile from one GTEX sample:
+
+```
+sample,LINE?,LTR,Satellite,Retroposon,DNA,SINE?,RNA,DNA?,RC,LINE,SINE,LTR?
+G42480.GTEX-QESD-0426.2,0,258615,2036,7691,163674,122,347,3115,439,570393,790630,32
+```
 
 
