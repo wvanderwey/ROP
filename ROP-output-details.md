@@ -143,6 +143,10 @@ This directory contains the output of [Step 6. Microbiome profiling](https://git
 * bacteriaProfile
 * eukaryoticPathogenProfile
 
-BCR directory contains:
+Reads mapped to the microbial genomes are saved in `_blastFormat6.csv`
 
-* IGH a directory for immunoglobulin heavy locus profile 
+An example of the unmapped read aligned to the Cryptosporidium muris(DS989729), a species of coccidium
+
+```
+SRR1146076.9993022      DS989729        85.92   71      9       1       1       70      454894  454964  5e-13   75.0
+```
