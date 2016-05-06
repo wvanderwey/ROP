@@ -153,7 +153,7 @@ SRR1146076.9993022      DS989729        85.92   71      9       1       1       
 
 This directory contains the output of optional module which determines genomic profile of RNA-Seq. It categorizes the mapped reads into genomic categories based on the compatibility of each read with the features defined by gene annotations.
 
-It will estimate relative proportion of genomic category based on the number of reads from this category. Those are the categories used by the ROP (more details are [here](https://github.com/smangul1/rop/wiki/What-is-ROP%3F))
+It will estimate relative proportions of genomic categories (e.g. CDS, introns) based on the number of reads from the category. Those are the categories used by the ROP (more details are [here](https://github.com/smangul1/rop/wiki/What-is-ROP%3F))
 
 * multi-mapped read
 * CDS
