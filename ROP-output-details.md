@@ -82,6 +82,13 @@ n | id| What does it mean?
  11|	 evalue	| expect value
  12|	 bitscore	| bit score
 
+An example of the unmapped read mapped to L1 retrotransposon
+
+```
+SRR1146076.9992259      L1PA4-L1-Homo   97.44   78      2       0       2       79      795     872     3e-33    134
+
+```
+
 ## NCL directory
 
 This directory contains the output of Step 4 (Non-co-linear (NCL) RNA profiling). More details will be posted soon
@@ -102,3 +109,6 @@ TCR directory contains:
 * TCRB a directory for T cell receptor beta locus
 * TCRD a directory for T cell receptor gamma locus
 * TCRG a directory for T cell receptor delta locus
+
+Inside each directory 
+
