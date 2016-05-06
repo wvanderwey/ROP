@@ -155,14 +155,14 @@ This directory contains the output of optional module which determines genomic p
 
 It will estimate relative proportion of genomic category based on the number of reads from this category. Those are the categories used by the ROP (more details are [here](https://github.com/smangul1/rop/wiki/What-is-ROP%3F))
 
-*multi-mapped read
-*CDS
-*intron
-*UTR3
-*UTR5 
-*UTR
-*junction read
-*inter-genic read
+* multi-mapped read
+* CDS
+* intron
+* UTR3
+* UTR5 
+* UTR
+* junction read
+* inter-genic read
 * deep inter-genic read
-*mitochondrial DNA
-*fusion reads
+* mitochondrial DNA
+* fusion reads
