@@ -113,3 +113,8 @@ TCR directory contains:
 Reads spanning antigen receptor gene rearrangement in the variable domain are identified using [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/).  IgBLAST reports
 alignment of the reads to the variable (V) gene, the diversity (D) gene and the joining (J) gene, or the recombination of those. Reads alignment is saved in the `tabular output format 6`. 
 
+An example of the unmapped read mapped to immunoglobulin heavy variable 1-46(IGHV1-46)
+
+```
+V       SRR1146076.56325        IGHV1-46*01     93.67   79      5       0       0       1       79      203     281     7e-27     109
+```
