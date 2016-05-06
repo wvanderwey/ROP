@@ -88,6 +88,6 @@ This directory contains the output of Step 4 (Non-co-linear (NCL) RNA profiling)
 
 ## immune directory
 
-This directory contains the output of `Step 5. (B and T lymphocytes profiling)`. It contains a separate directory for B cell receptors `BCR` directory and a separate directory for T cell receptor `TCR` directory. 
+This directory contains the output of [Step 5. (B and T lymphocytes profiling)](https://github.com/smangul1/rop/wiki/What-is-ROP%3F). It contains a separate directory for B cell receptors `BCR` directory and a separate directory for T cell receptor `TCR` directory. 
 
 
