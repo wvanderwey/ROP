@@ -52,9 +52,7 @@ In toto : 7 reads mapped to microbial genomes
 Summary:   The ROP protocol is able to account for 2231 reads
 ```
 
-Additionally ROp creates ``numberReads_<sampleName>.log`` with the number of reads detected in each step in the `.csv` format. 
-
-An example of ``numberReads_<sampleName>.log``.
+Additionally ROp creates ``numberReads_<sampleName>.log`` with the number of reads detected in each step in the `.csv` format. An example of ``numberReads_<sampleName>.log`` is provided bellow:
 
 ```
 unmappedExample,2505,2193,2,22,6,1,0,7
