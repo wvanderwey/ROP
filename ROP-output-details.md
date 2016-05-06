@@ -4,6 +4,7 @@ Here we describe the output structure of the ROP pipeline. The details of the RO
 This is the typical output of the ROP pipeline
 
 ```
+ls -l
 -rw-r--r-- 1 serghei eeskin 11516 May  5 14:28 dev.log
 drwxr-xr-x 4 serghei eeskin  4096 May  5 14:24 lostHumanReads
 drwxr-xr-x 4 serghei eeskin  4096 May  5 14:24 lostRepeatSequences
