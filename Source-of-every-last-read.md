@@ -60,4 +60,4 @@ An example of ``numberReads_<sampleName>.log``.
 unmappedExample,2505,2193,2,22,6,1,0,7
 ```
 
-Given ROP analysis for multiple sample, you may consider concatenate the individual ``numberReads_<sampleName>.log`` to get the statistics across multiple samples. Detail instructions are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-multiple-samples)
+Given ROP analysis for multiple sample, you may consider concatenate the individual logfiles to get the statistics across the multiple samples. Detail instructions are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-multiple-samples)
