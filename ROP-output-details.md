@@ -111,9 +111,25 @@ TCR directory contains:
 * TCRG a directory for T cell receptor delta locus
 
 Reads spanning antigen receptor gene rearrangement in the variable domain are identified using [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/).  IgBLAST reports
-alignment of the reads to the variable (V) gene, the diversity (D) gene and the joining (J) gene, or the recombination of those. Reads alignment is saved in the `tabular output format 6`. 
+alignment of the reads to the variable (V) gene, the diversity (D) gene and the joining (J) gene, or the recombination of those. Reads alignment is saved in the modified `tabular output format 6`. 
 
-An example of the unmapped read mapped to immunoglobulin heavy variable 1-46(IGHV1-46)
+
+n | id| What does it mean? 
+:-- | :-- | :--
+0 | VDJ | gene segment 
+1 | qseqid |read name  
+2 | sseqid |reference genome   
+3 | pident |percentage of identical matches  
+4 | length |alignment length
+5 | mismatch | number of mismatches
+6|	 gapopen	| number of gap openings
+ 7|	 qstart	| start of alignment in query
+ 8|	 qend	| end of alignment in query
+ 9|	 sstart	| start of alignment in subject
+ 10|	 send	| end of alignment in subject
+ 11|	 evalue	| expect value
+ 12|	 bitscore	| bit score
+An example of the unmapped read mapped to immunoglobulin heavy variable 1-46 (IGHV1-46)
 
 ```
 V       SRR1146076.56325        IGHV1-46*01     93.67   79      5       0       0       1       79      203     281     7e-27     109
