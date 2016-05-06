@@ -167,7 +167,7 @@ It will estimate relative proportions of genomic categories (e.g. CDS, introns) 
 * mitochondrial DNA
 * fusion reads
 
-An example of genomic profile of the RNA-Seq sample 
+An example of the genomic profile of a RNA-Seq sample 
 
 ```
 sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nMixed,nIntron,nIntergenic,nDeep,nFussion,nrRNA,nMT,nMultiMapped
