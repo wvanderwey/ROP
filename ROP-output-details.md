@@ -148,3 +148,21 @@ An example of the unmapped read aligned to the Cryptosporidium muris(DS989729), 
 ```
 SRR1146076.9993022      DS989729        85.92   71      9       1       1       70      454894  454964  5e-13   75.0
 ```
+
+###genomicProfile directory 
+
+This directory contains the output of optional module which determines genomic profile of RNA-Seq. It categorizes the mapped reads into genomic categories based on the compatibility of each read with the features defined by gene annotations.
+
+It will estimate relative proportion of genomic category based on the number of reads from this category. Those are the categories used by the ROP (more details are [here](https://github.com/smangul1/rop/wiki/What-is-ROP%3F))
+
+*multi-mapped read
+*CDS
+*intron
+*UTR3
+*UTR5 
+*UTR
+*junction read
+*inter-genic read
+* deep inter-genic read
+*mitochondrial DNA
+*fusion reads
