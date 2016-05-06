@@ -90,4 +90,8 @@ This directory contains the output of Step 4 (Non-co-linear (NCL) RNA profiling)
 
 This directory contains the output of [Step 5. (B and T lymphocytes profiling)](https://github.com/smangul1/rop/wiki/What-is-ROP%3F). It contains a separate directory for B cell receptors (BCR) : `BCR` directory and a separate directory for T cell receptor (TCR) :  `TCR` directory. 
 
+BCR directory contains:
 
+* IGH a directory for immunoglobulin heavy locus profile 
+* IGK a directory for IGK IGK immunoglobulin kappa locus
+* IGL a directory for immunoglobulin lambda locus profile 
