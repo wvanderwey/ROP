@@ -167,6 +167,14 @@ It will estimate relative proportions of genomic categories (e.g. CDS, introns) 
 * mitochondrial DNA
 * fusion reads
 
+An example of genomic profile of the RNA-Seq sample 
+
+```
+sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nMixed,nIntron,nIntergenic,nDeep,nFussion,nrRNA,nMT,nMultiMapped
+--,57012335,6698066,4632060,7223406,2342899,1298331,0,28870771,2382707,2336668,534336,7441,337688,1646293
+```
+
+
 ### repeatProfile directory 
 
 ROP has the functionality to output the genomic feature for each mapped read, which can be saved into a separate file. Be aware that it might take the significant space from the cluster. More details are [here](https://github.com/smangul1/rop/wiki/Additional-options)
