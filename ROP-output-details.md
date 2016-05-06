@@ -65,3 +65,9 @@ The directory contains the output of Step 2 (Remap to human sequences).  The los
 ### lostRepeatSequences directory
 
 The directory contains the output of Step 3 (Map to repeat sequences). Reads mapped to the repeat sequences are saved into the  `_blastFormat6.csv` in [tabular output format 6](http://www.metagenomics.wiki/tools/blast/blastn-output-format-6).
+
+dog | bird | cat
+:-- | :--: | --:
+foo | foo  | foo
+bar | bar  | bar
+baz | baz  | baz
