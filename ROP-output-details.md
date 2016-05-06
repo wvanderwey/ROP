@@ -129,7 +129,8 @@ n | id| What does it mean?
  10|	 send	| end of alignment in subject
  11|	 evalue	| expect value
  12|	 bitscore	| bit score
-An example of the unmapped read mapped to immunoglobulin heavy variable 1-46 (IGHV1-46)
+
+An example of the unmapped read aligned to immunoglobulin heavy variable 1-46 gene (IGHV1-46)
 
 ```
 V       SRR1146076.56325        IGHV1-46*01     93.67   79      5       0       0       1       79      203     281     7e-27     109
