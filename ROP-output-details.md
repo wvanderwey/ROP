@@ -171,10 +171,11 @@ ROP has the functionality to output the genomic feature for each mapped read, wh
 
 It will estimate relative proportions of repeat categories (e.g. LINE. SINE, LTR) based on the number of reads from the category. More details about the repeat categories used by ROP are [here](https://github.com/smangul1/rop/wiki/What-is-ROP%3F/)
 
-The ROP generates three output files:
-* `<sampleName>_repeat.repeatClass.csv`
-* `<sampleName>_repeat.repeatFamily.csv`
-* `<sampleName>_repeat.repeatGene.csv`
+The ROP provided three levels of repeat profile, i.e class level (e.g SINE, LINE); family level (e.g. Alu, L1); gene level (e.g. L1P4c). Those the output files created for each level 
+
+* Class level : `<sampleName>_repeat.repeatClass.csv`
+* Family level : `<sampleName>_repeat.repeatFamily.csv`
+* gene level : `<sampleName>_repeat.repeatGene.csv`
 
 
 
