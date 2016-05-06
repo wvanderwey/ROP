@@ -110,5 +110,6 @@ TCR directory contains:
 * TCRD a directory for T cell receptor gamma locus
 * TCRG a directory for T cell receptor delta locus
 
-Reads spanning antigen receptor gene rearrangement in the variable domain (i.e. VDJ recombination of BCR and TCR) are identified using [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/).
+Reads spanning antigen receptor gene rearrangement in the variable domain are identified using [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/).  IgBLAST reports
+alignment of the reads to the variable (V) gene, the diversity (D) gene and the joining (J) gene, or the recombination of those. Reads alignment is saved in the `tabular output format 6`. 
 
