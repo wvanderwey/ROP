@@ -21,9 +21,9 @@ drwxr-xr-x 4 serghei eeskin  4096 May  5 14:24 repeatProfile
 
 ### QC directory
 
-The directory contains the output of Quality Control (Step 1) . It contains information (logfile with _QC.log extension) with the details of the number of low quality, low complexity (e.g. ACACACACA ), and rRNA reads detected.
+The directory contains the output of Quality Control (Step 1) . It contains information with the details of the number of low quality, low complexity, and rRNA reads detected.
 
-The information about number of low quality reads from  _QC.log logfile
+The information about number of low quality reads in  _QC.log logfile obtained using [FASTX](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html
 
 ```
 Quality cut-off: 20
@@ -33,7 +33,7 @@ Output: 312 reads.
 discarded 2193 (87%) low-quality reads.
 ```
 
-The information about number of low complexity reads from  _QC.log logfile
+The information about number of low complexity reads in  _QC.log logfile obtained using [SEQCLEAN](https://sourceforge.net/projects/seqclean/)
 
 ```
 Sequences analyzed:       312
@@ -47,5 +47,9 @@ Sequences analyzed:       312
 ------------------------------
 
 ```
+
+The information about number of rRNA reads in  _QC.log logfile obtained using [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
+
+
 
 ### lostHumanReads directory
