@@ -11,7 +11,7 @@ drwxr-xr-x 5 serghei eeskin  4096 May  5 14:24 microbiome
 drwxr-xr-x 2 serghei eeskin  4096 May  5 14:24 NCL
 -rw-r--r-- 1 serghei eeskin    39 May  5 14:28 numberReads_unmappedExample.log
 drwxr-xr-x 2 serghei eeskin  4096 May  5 14:28 QC
-drwxr-xr-x 6 serghei eeskin  4096 May  5 14:24 immune
+drwxr-xr-x 6 serghei eeskin  4096 May  5 14:24 antibodyProfile
 -rw-r--r-- 1 serghei eeskin  2050 May  5 14:28 unmappedExample.log
 drwxr-xr-x 4 serghei eeskin  4096 May  5 14:24 genomicProfile
 drwxr-xr-x 4 serghei eeskin  4096 May  5 14:24 repeatProfile
@@ -86,7 +86,7 @@ n | id| What does it mean?
 
 This directory contains the output of Step 4 (Non-co-linear (NCL) RNA profiling). More details will be posted soon
 
-## immune directory
+## antibodyProfile directory
 
 This directory contains the output of [Step 5. (B and T lymphocytes profiling)](https://github.com/smangul1/rop/wiki/What-is-ROP%3F). It contains a separate directory for B cell receptors (BCR) : `BCR` directory and a separate directory for T cell receptor (TCR) :  `TCR` directory. 
 
@@ -95,3 +95,10 @@ BCR directory contains:
 * IGH a directory for immunoglobulin heavy locus profile 
 * IGK a directory for IGK IGK immunoglobulin kappa locus
 * IGL a directory for immunoglobulin lambda locus profile 
+
+TCR directory contains:
+
+* TCRA a directory for T cell receptor alpha locus
+* TCRB a directory for T cell receptor beta locus
+* TCRD a directory for T cell receptor gamma locus
+* TCRG a directory for T cell receptor delta locus
