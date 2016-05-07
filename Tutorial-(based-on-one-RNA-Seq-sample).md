@@ -85,7 +85,7 @@ After the bam file was downloaded run the following ROP command
 python rop.py --gprofile --rprofile --mapped tutorial/data/mapped_SR_1146076.bam tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
 ```
 
-You should expect the following output of the ROP pipeline on your screen. Read [here](https://github.com/smangul1/rop/wiki/Source-of-every-last-read) more about how ROP detects the source of every last RNA-Seq read.
+You should expect the following output of the ROP pipeline on your screen: 
 
 ```
 *********************************************
@@ -110,12 +110,14 @@ In toto : 7033965 reads failed QC and are filtered out
 ***Note : Trans-spicing and gene fusions  are currently not supported, but will be in the next release.
 ```
 
+
+ 
 More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
 
 
-The ropOut directory now contains the output of ROP. The structure of the output is explained in next section. 
+The ropOut directory now contains the output of ROP. The structure of the output is explained [here](https://github.com/smangul1/rop/wiki/ROP-output-details)
 
-## ROP output details
+
 
 After running the ROP output is saved in a single directory (specified as a second command line argument). After running ROP in the previous section, output was saved in the ropOut directory. 
 
@@ -126,24 +128,6 @@ cd /tutorial/ropOut/
 ```
 
 The directory contains individual directions for each individual analysis. For example there is a separate directory with the analysis of the antibody repertoire. 
-
-The ROP output consist of six directories corresponding to six steps of the ROP protocol.
-
-```
-QC
-lostHumanReads
-lostRepeatSequences
-NCL (non-co-linear RNA)
-immune
-microbiome
-```
-
-The output of two option modules is saved here
-
-```
-genomicProfile
-repeatProfile
-```
 
 
 
