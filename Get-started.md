@@ -86,3 +86,8 @@ In toto : 0 reads mapped to antibody repertoire loci
 In toto : 7 reads mapped to microbial genomes
 Summary:   The ROP protocol is able to account for 2231 reads
 ```
+
+
+To get the genomic profile of the mapped reads use `--gprofile` options and provide bam file using `--mapped` option
+
+![Genomic profile of toy .bam file](https://sergheimangul.files.wordpress.com/2016/05/gprofile.png?w=1280)
