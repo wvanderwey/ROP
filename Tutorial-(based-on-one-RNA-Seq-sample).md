@@ -85,6 +85,30 @@ After the bam file was downloaded run the following ROP command
 python rop.py --gprofile --rprofile --mapped tutorial/data/mapped_SR_1146076.bam tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
 ```
 
+You should expect the following output of the ROP pipeline on your screen. Read [here](https://github.com/smangul1/rop/wiki/Source-of-every-last-read) more about how ROP detects the source of every last RNA-Seq read.
+
+```
+*********************************************
+ROP is a computational protocol aimed to discover the source of all reads, originated from complex RNA molecules, recombinant antibodies and microbial communities. Written by Serghei Mangul (smangul@ucla.edu) and Harry Taegyun Yang (harry2416@gmail.com), University of California, Los Angeles (UCLA). (c) 2016. Released under the terms of the General Public License version 3.0 (GPLv3)
+
+For more details see:
+http://serghei.bioinformatics.ucla.edu/rop/
+https://github.com/smangul1/rop/wiki
+*********************************************
+Processing 7687003 unmapped reads
+1. Quality Control...
+--filtered 6966209 low quality reads
+--filtered 12457 low complexity reads (e.g. ACACACAC...)
+--filtered 55299 rRNA reads
+In toto : 7033965 reads failed QC and are filtered out
+2. Remaping to human references...
+--identified 16278 lost human reads from unmapped reads 
+3. Maping to repeat sequences...
+-Identify 3862 lost repeat sequences from unmapped reads
+***Note : Repeat sequences classification into classes (e.g. LINE) and families (e.g. Alu) will be available in next release
+3. Non-co-linear RNA profiling
+***Note : Trans-spicing and gene fusions  are currently not supported, but will be in the next release.
+```
 
 More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
 
