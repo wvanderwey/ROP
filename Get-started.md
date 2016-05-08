@@ -123,9 +123,7 @@ The ROP provided three levels of repeat profile, i.e class level (e.g SINE, LINE
 
 Those the output files created for each level
 
-```
-Gene level : mappedReads_chr22_repeatProfilerepeatGene.csv
-```
+
 
 Class level of classification (`mappedReads_chr22_repeatProfilerepeatClass.csv`): 
 
@@ -168,7 +166,6 @@ Alternatively you can visualize the repeat profile as a pie chart
 ![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_family.png)
 
 
-ROP also provides individual level resolution, where the number of reads assigned to each repeat instance is reported. Each instance is represented in the following format `Family__Class__Instance` allowing to retrieve the particular class and family the repeat instance belongs to. For example `L1____LINE____L1MD` corresponds to element L1MD from L1 gamily of LINE class. 
-
+ROP also provides gene level resolution (`mappedReads_chr22_repeatProfilerepeatGene.csv`) , where the number of reads assigned to each repeat instance is reported. Each instance is represented in the following format `Family__Class__Instance` allowing to retrieve the particular class and family the repeat instance belongs to. For example `L1____LINE____L1MD` corresponds to element L1MD from L1 gamily of LINE class. 
 
 
