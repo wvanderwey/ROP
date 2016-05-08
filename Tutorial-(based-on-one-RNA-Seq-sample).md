@@ -132,4 +132,9 @@ The directory contains individual directions for each individual analysis. For e
 
 #Genomic profile of RNA-Seq
 
+```
+sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron,nIntergenic,nDeep,nMT,nMultiMapped
+mapped_SR_1146076,17904083,5425835,4535762,3589107,362853,963938,765359,195246,32345,1061075,972563
+```
+
 ![](https://sergheimangul.files.wordpress.com/2016/05/gprofile1.png?w=1280)
