@@ -113,3 +113,14 @@ Read more about Genomic Profile of RNA-Seq [here](https://github.com/smangul1/ro
 ```
 python rprofile.py example/mappedReads_chr22.bam example/mappedReads_chr22_repeatProfile
 ```
+
+After running the above command three files will be created, each corresponding to a different level of 
+
+The ROP provided three levels of repeat profile, i.e class level (e.g SINE, LINE); family level (e.g. Alu, L1); gene level (e.g. L1P4c). Those the output files created for each level
+
+```
+Class level : mappedReads_chr22_repeatProfilerepeatClass.csv
+Family level : mappedReads_chr22_repeatProfilerepeatFamily.csv
+Gene level : mappedReads_chr22_repeatProfilerepeatGene.csv
+```
+
