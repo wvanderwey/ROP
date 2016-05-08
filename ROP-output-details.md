@@ -176,7 +176,7 @@ sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nMixed,nIntron,nInterge
 
 This module also provides an option to get the detailed information about the reads assignment to the genomic categories. Choose the `--perCategory` option and get the genomic category for each mapped read.  A separate file corresponding to reads assignment to each chromosome will be created (e.g. `mappedReads.22.genomicFeature`).
 
-An example of a file corresponding to chr22 i.e. reads assigned to genomic features from chr22 
+An example of a file with reads assigned to the genomic features from chr22 is presented bellow: 
 
 ```
 SRR1146076.3540543,22,junction
