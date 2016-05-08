@@ -47,13 +47,15 @@ We developed [rprofile](https://github.com/smangul1/rprofile) to categorize the 
 
 Reads are categorized into the following classes: 
 
-* LINE
-* LTR
+* LINE (Long Interspersed Nuclear Elements)
+* SINE (Short Interspersed Nuclear Elements)
+* LTR (Long terminal repeat)
 * RC
 * SVA
 * RNA
 * Satellite
-* SINE
+* Retroposon
+
 
 Reads are categorized into the following families: 
 * acro
