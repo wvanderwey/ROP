@@ -134,5 +134,7 @@ sample,LINE?,LTR,Satellite,Retroposon,DNA,SINE?,RNA,DNA?,RC,LINE,SINE,LTR?
 mappedReads_chr22,0,2445,3,6,568,0,0,0,0,2588,5356,0
 ```
 
+The classes with the `?` are provided by [RepeatMasker](http://www.repeatmasker.org/). For example [MER129](http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MER129) is classified as `LTR?`. You may merge LTR? with LTR or ignore those.
+
 
 ![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_class1.png)
