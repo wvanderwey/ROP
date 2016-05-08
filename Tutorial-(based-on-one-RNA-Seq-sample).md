@@ -130,4 +130,6 @@ cd /tutorial/ropOut/
 The directory contains individual directions for each individual analysis. For example there is a separate directory with the analysis of the antibody repertoire. 
 
 
+#Genomic profile of RNA-Seq
 
+![](https://sergheimangul.files.wordpress.com/2016/05/gprofile1.png?w=1280)
