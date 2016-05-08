@@ -1,1 +1,1 @@
-ROP is ready at http://serghei.bioinformatics.ucla.edu/rop/
+ROP is ready at https://sergheimangul.wordpress.com/rop/
