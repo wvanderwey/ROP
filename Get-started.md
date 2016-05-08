@@ -144,7 +144,7 @@ mappedReads_chr22	2445	568	2588	5356
 
 Alternatively you can visualize it as a pie chart  
 
-
+![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_class2.png)
 
 Family level of classification (`mappedReads_chr22_repeatProfilerepeatFamily.csv`): 
 
