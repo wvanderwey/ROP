@@ -39,14 +39,15 @@ python rop.py example/unmappedExample.fastq example/ropOut/
 You expect the following output of the ROP pipeline:
 
 ```
-
 *********************************************
 ROP is a computational protocol aimed to discover the source of all reads, originated from complex RNA molecules, recombinant antibodies and microbial communities. Written by Serghei Mangul (smangul@ucla.edu) and Harry Taegyun Yang (harry2416@gmail.com), University of California, Los Angeles (UCLA). (c) 2016. Released under the terms of the General Public License version 3.0 (GPLv3)
 
 For more details see:
 http://serghei.bioinformatics.ucla.edu/rop/
+https://github.com/smangul1/rop/wiki
 *********************************************
-Processing 2505 unmapped reads
+/u/home/s/serghei/code2/rop/example/rop1/NCL//unmappedExample_circRNA.csv
+Processing 2508 unmapped reads
 1. Quality Control...
 --filtered 2193 low quality reads
 --filtered 2 low complexity reads (e.g. ACACACAC...)
@@ -54,22 +55,23 @@ Processing 2505 unmapped reads
 In toto : 2217 reads failed QC and are filtered out
 2. Remaping to human references...
 --identified 6 lost human reads from unmapped reads 
-3. Mapping to repeat sequences...
+3. Maping to repeat sequences...
 -Identify 1 lost repeat sequences from unmapped reads
 ***Note : Repeat sequences classification into classes (e.g. LINE) and families (e.g. Alu) will be available in next release
 3. Non-co-linear RNA profiling
-Please use --circRNA options to profile circular RNAs
 ***Note : Trans-spicing and gene fusions  are currently not supported, but will be in the next release.
+--identified 2 reads from circRNA
 4a. B lymphocytes profiling...
---identified 0 reads mapped to immunoglobulin heavy (IGH) locus
+/u/home/s/serghei/code2/rop/example/rop1/BCR/IGH/unmappedExample_IGH_igblast.csv
+--identified 1 reads mapped to immunoglobulin heavy (IGH) locus
 --identified 0 reads mapped to immunoglobulin kappa (IGK) locus 
---identified 0 reads mapped to immunoglobulin lambda (IGL) locus
+--identified 1 reads mapped to immunoglobulin lambda (IGL) locus
 4b. T lymphocytes profiling...
 --identified 0 reads mapped to T cell receptor alpha (TCRA) locus
---identified 0 reads mapped to T cell receptor beta (TCRB) locus
---identified 0 reads mapped to T cell receptor delta (TCRD) locus
+--identified 2 reads mapped to T cell receptor beta (TCRB) locus
+--identified 1 reads mapped to T cell receptor delta (TCRD) locus
 --identified 0 reads mapped to T cell receptor gamma locus (TCRG) locus
-In toto : 0 reads mapped to antibody repertoire loci
+In toto : 5 reads mapped to antibody repertoire loci
 ***Note : Combinatorial diversity of the antibody repertoire (recombinations of the of VJ gene segments)  will be available in the next release.
 5.  Microbiome profiling...
 --identified 0 reads mapped bacterial genomes
@@ -84,7 +86,8 @@ In toto : 0 reads mapped to antibody repertoire loci
 --identified 0 reads mapped trich genomes
 --identified 0 reads mapped tritryp genomes
 In toto : 7 reads mapped to microbial genomes
-Summary:   The ROP protocol is able to account for 2231 reads
+Summary:   The ROP protocol is able to account for 2236 reads
+***Unaccounted reads (not explained by ROP) are saved to /u/home/s/serghei/code2/rop/example/rop1/unmappedExample_unaccountedReads.fasta
 ```
 
 ##Genomic profile of RNA-Seq
