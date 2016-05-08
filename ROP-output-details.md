@@ -174,6 +174,22 @@ sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nMixed,nIntron,nInterge
 --,57012335,6698066,4632060,7223406,2342899,1298331,0,28870771,2382707,2336668,534336,7441,337688,1646293
 ```
 
+This module also provide the option to get the detailed information about the reads assignment to the genomic categories. Choose the `--perCategory` option and get the genomic category for each mapped read.  A separate file (with reads assignments) per chromosome will be created.
+
+An example of `mappedReads.22.genomicFeature` corresponding to reads assigment to the genomic features from chr22 is presented bellow. 
+
+```
+SRR1146076.3540543,22,junction
+SRR1146076.17070789,22,UTR5
+SRR1146076.21758998,22,UTR5
+SRR1146076.20543213,22,UTR5
+SRR1146076.9808865,22,DEEP
+SRR1146076.16863731,22,INTERGENIC
+SRR1146076.968340,22,UTR3
+```
+
+
+
 
 ### repeatProfile directory 
 
