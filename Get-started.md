@@ -12,7 +12,7 @@ Please do not hesitate to contact us (smangul@ucla.edu) if you have any comments
 
 Details are [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
 
-##Toy example
+#Toy example
 
 Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note 
 that selected reads are randomly selected and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory:
@@ -87,7 +87,7 @@ In toto : 7 reads mapped to microbial genomes
 Summary:   The ROP protocol is able to account for 2231 reads
 ```
 
-#Genomic profile of RNA-Seq
+##Genomic profile of RNA-Seq
 
 To get the genomic profile of the mapped reads use `gprofile.py`. To get the genomic profile of the toy bam file(reads from chr22) use the following command:
 
@@ -105,3 +105,5 @@ mappedReads,397134,129580,101541,96210,7457,22473,19420,3084,649,0,16720
 You can use `/example/mappedReads_chr22.csv` to create pie chart. The  pie chart corresponding to `/example/mappedReads_chr22.csv` is presented bellow:
 
 ![Genomic profile of toy .bam file](https://sergheimangul.files.wordpress.com/2016/05/gprofile.png?w=1280)
+
+Read more about Genomic Profile of RNA-Seq [here](https://github.com/smangul1/rop/wiki/ROP-output-details)
