@@ -95,7 +95,7 @@ To get the genomic profile of the mapped reads use `gprofile.py`. To get the gen
 python gprofile.py example/mappedReads_chr22.bam /example/mappedReads_chr22.csv
 ```
 
-The output of the module is number of reads assigned to each genomic category saved into the '/example/mappedReads_chr22.csv'
+The output of the module is number of reads assigned to each genomic category saved into the `/example/mappedReads_chr22.csv`
 
 ```
 sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron,nIntergenic,nDeep,nMT,nMultiMapped
