@@ -133,3 +133,6 @@ Gene level : mappedReads_chr22_repeatProfilerepeatGene.csv
 sample,LINE?,LTR,Satellite,Retroposon,DNA,SINE?,RNA,DNA?,RC,LINE,SINE,LTR?
 mappedReads_chr22,0,2445,3,6,568,0,0,0,0,2588,5356,0
 ```
+
+
+![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_class1.png)
