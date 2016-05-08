@@ -102,6 +102,6 @@ sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron,nIntergenic,nDe
 mappedReads,397134,129580,101541,96210,7457,22473,19420,3084,649,0,16720
 ```
 
-You can use 
+You can use `/example/mappedReads_chr22.csv` to create pie chart. The  pie chart corresponding to `/example/mappedReads_chr22.csv` is presented bellow:
 
 ![Genomic profile of toy .bam file](https://sergheimangul.files.wordpress.com/2016/05/gprofile.png?w=1280)
