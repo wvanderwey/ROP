@@ -90,6 +90,8 @@ Summary:   The ROP protocol is able to account for 2236 reads
 ***Unaccounted reads (not explained by ROP) are saved to /u/home/s/serghei/code2/rop/example/rop1/unmappedExample_unaccountedReads.fasta
 ```
 
+The ropOut directory now contains the output of ROP. The structure of the output is explained [here](https://github.com/smangul1/rop/wiki/ROP-output-details). For example it contains `/antibodyProfile/` directory with reads spanning antigen receptor gene rearrangement in the variable domain being identified by [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/). 
+
 ##Genomic profile of RNA-Seq
 
 To get the genomic profile of the mapped reads use `gprofile.py`. To get the genomic profile of the toy bam file (reads from chr22) use the following command:
