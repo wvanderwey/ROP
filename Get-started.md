@@ -89,7 +89,7 @@ Summary:   The ROP protocol is able to account for 2231 reads
 
 ##Genomic profile of RNA-Seq
 
-To get the genomic profile of the mapped reads use `gprofile.py`. To get the genomic profile of the toy bam file(reads from chr22) use the following command:
+To get the genomic profile of the mapped reads use `gprofile.py`. To get the genomic profile of the toy bam file (reads from chr22) use the following command:
 
 ```
 python gprofile.py example/mappedReads_chr22.bam /example/mappedReads_chr22.csv
