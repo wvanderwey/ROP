@@ -144,7 +144,6 @@ mappedReads_chr22	2445	568	2588	5356
 
 Alternatively you can visualize it as a pie chart  
 
-![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_class1.png)
 
 
 Family level of classification (`mappedReads_chr22_repeatProfilerepeatFamily.csv`): 
@@ -153,3 +152,7 @@ Family level of classification (`mappedReads_chr22_repeatProfilerepeatFamily.csv
 sample,SINE____Alu,DNA____TcMar-Tigger,LTR?____LTR,DNA____PiggyBac,DNA____hAT,Retroposon____SVA_E,LTR____ERV1,LINE____L1,LINE____L2,DNA____MuDR,DNA____TcMar,LINE?____Penelope,LTR____ERVL-MaLR,DNA____DNA,LTR____ERV,DNA____hAT-Charlie,RC____Helitron,DNA____hAT-Blackjack,SINE____MIR,Satellite____centr,DNA____Merlin,LTR____LTR,DNA____hAT-Tip100,RNA____RNA,SINE____Deu,Retroposon____SVA_D,LTR____Gypsy,Retroposon____SVA_F,Retroposon____SVA_A,LINE____CR1,Retroposon____SVA_C,Retroposon____SVA_B,DNA____TcMar-Mariner,LINE____RTE,LINE____RTE-BovB,DNA____TcMar-Tc2,LTR____ERVK,Satellite____acro,Satellite____telo,LTR____ERVL,Satellite____Satellite,SINE?____SINE,DNA?____DNA,SINE____SINE,LINE____Dong-R4
 mappedReads_chr22,4502,123,0,1,16,0,859,1476,1009,0,2,0,943,2,0,349,0,4,849,2,0,0,50,0,1,2,3,0,3,93,0,1,21,10,0,0,151,0,0,489,1,0,0,4,0
 ```
+
+Each family is represented in the following format `Class_Family` allowing to retrieve the class family belongs to. For example `LINE____L1` corresponds to family element L1 from LINE class. 
+
+
