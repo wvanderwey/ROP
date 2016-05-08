@@ -124,9 +124,11 @@ The ROP provided three levels of repeat profile, i.e class level (e.g SINE, LINE
 Those the output files created for each level
 
 ```
-Class level : mappedReads_chr22_repeatProfilerepeatClass.csv
 Gene level : mappedReads_chr22_repeatProfilerepeatGene.csv
 ```
+
+Class level of classification (`mappedReads_chr22_repeatProfilerepeatClass.csv`): 
+
 
 ```
 sample,LINE?,LTR,Satellite,Retroposon,DNA,SINE?,RNA,DNA?,RC,LINE,SINE,LTR?
@@ -135,24 +137,33 @@ mappedReads_chr22,0,2445,3,6,568,0,0,0,0,2588,5356,0
 
 The classes with the `?` are provided by [RepeatMasker](http://www.repeatmasker.org/). For example [MER129](http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MER129) is classified as `LTR?`. You may merge LTR? with LTR or ignore those.
 
-This is the distribution of repeat classes with sufficient number of supporting reads. Presented as a table
-
+Those are the repeat classes with sufficient number of reads supporting the class. The repeat profile is presented as a table:
 ```
 sample	LTR	DNA	LINE	SINE
 mappedReads_chr22	2445	568	2588	5356
 ```
 
-Alternatively you can visualize it as a pie chart  
+Alternatively you can visualize the repeat profile as a pie chart  
 
 ![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_class2.png)
 
-Family level of classification (`mappedReads_chr22_repeatProfilerepeatFamily.csv`): 
+Family level of classification (`mappedReads_chr22_repeatProfilerepeatFamily.csv`) is presented bellow. Each family is represented in the following format `Class_Family` allowing to retrieve the particular class the family belongs to. For example `LINE____L1` corresponds to family element L1 from LINE class. 
+
 
 ```
 sample,SINE____Alu,DNA____TcMar-Tigger,LTR?____LTR,DNA____PiggyBac,DNA____hAT,Retroposon____SVA_E,LTR____ERV1,LINE____L1,LINE____L2,DNA____MuDR,DNA____TcMar,LINE?____Penelope,LTR____ERVL-MaLR,DNA____DNA,LTR____ERV,DNA____hAT-Charlie,RC____Helitron,DNA____hAT-Blackjack,SINE____MIR,Satellite____centr,DNA____Merlin,LTR____LTR,DNA____hAT-Tip100,RNA____RNA,SINE____Deu,Retroposon____SVA_D,LTR____Gypsy,Retroposon____SVA_F,Retroposon____SVA_A,LINE____CR1,Retroposon____SVA_C,Retroposon____SVA_B,DNA____TcMar-Mariner,LINE____RTE,LINE____RTE-BovB,DNA____TcMar-Tc2,LTR____ERVK,Satellite____acro,Satellite____telo,LTR____ERVL,Satellite____Satellite,SINE?____SINE,DNA?____DNA,SINE____SINE,LINE____Dong-R4
 mappedReads_chr22,4502,123,0,1,16,0,859,1476,1009,0,2,0,943,2,0,349,0,4,849,2,0,0,50,0,1,2,3,0,3,93,0,1,21,10,0,0,151,0,0,489,1,0,0,4,0
 ```
 
-Each family is represented in the following format `Class_Family` allowing to retrieve the class family belongs to. For example `LINE____L1` corresponds to family element L1 from LINE class. 
+Those are the repeat families with sufficient number of reads supporting the family. The repeat profile is presented as a table:
 
+```
+sample	LTR____ERV1	LTR____ERVL-MaLR	LTR____ERVK	DNA____hAT-Charlie	DNA____TcMar-Tigger	DNA____hAT-Tip100	LINE____L1	LINE____L2	SINE____Alu	SINE____MIR
+mappedReads_chr22	859	943	151	349	123	50	1476	1009	4502	849
+```
+
+
+Alternatively you can visualize the repeat profile as a pie chart  
+
+![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_family.png)
 
