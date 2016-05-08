@@ -174,9 +174,9 @@ sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nMixed,nIntron,nInterge
 --,57012335,6698066,4632060,7223406,2342899,1298331,0,28870771,2382707,2336668,534336,7441,337688,1646293
 ```
 
-This module also provide the option to get the detailed information about the reads assignment to the genomic categories. Choose the `--perCategory` option and get the genomic category for each mapped read.  A separate file (with reads assignments) per chromosome will be created.
+This module also provide the option to get the detailed information about the reads assignment to the genomic categories. Choose the `--perCategory` option and get the genomic category for each mapped read.  A separate file per chromosome will be created (e.g. `mappedReads.22.genomicFeature`).
 
-An example of `mappedReads.22.genomicFeature` corresponding to reads assigment to the genomic features from chr22 is presented bellow. 
+An example of a file corresponding to chr22 i.e. reads assigned to genomic features from chr22 
 
 ```
 SRR1146076.3540543,22,junction
@@ -211,5 +211,4 @@ An example of the repeat profile from one [GTEX](www.gtexportal.org/) sample:
 sample,LINE?,LTR,Satellite,Retroposon,DNA,SINE?,RNA,DNA?,RC,LINE,SINE,LTR?
 G42480.GTEX-QESD-0426.2,0,258615,2036,7691,163674,122,347,3115,439,570393,790630,32
 ```
-
 
