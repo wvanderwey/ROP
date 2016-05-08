@@ -92,10 +92,10 @@ Summary:   The ROP protocol is able to account for 2231 reads
 To get the genomic profile of the mapped reads use `gprofile.py`. To get the genomic profile of the toy bam file(reads from chr22) use the following command:
 
 ```
-python gprofile.py example/mappedReads_chr22.bam example/mappedReads_chr22.csv
+python gprofile.py example/mappedReads_chr22.bam /example/mappedReads_chr22.csv
 ```
 
-The output of the module is number of reads assigned to each genomic category:
+The output of the module is number of reads assigned to each genomic category saved into the '/example/mappedReads_chr22.csv'
 
 ```
 sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron,nIntergenic,nDeep,nMT,nMultiMapped
