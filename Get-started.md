@@ -106,4 +106,5 @@ You can use `/example/mappedReads_chr22.csv` to create pie chart. The  pie chart
 
 ![Genomic profile of toy .bam file](https://sergheimangul.files.wordpress.com/2016/05/gprofile.png?w=1280)
 
-Read more about Genomic Profile of RNA-Seq [here](https://github.com/smangul1/rop/wiki/ROP-output-details)
+Read more about Genomic Profile of RNA-Seq [here](https://github.com/smangul1/rop/wiki/ROP-output-details).
+
