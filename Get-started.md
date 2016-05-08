@@ -135,6 +135,14 @@ mappedReads_chr22,0,2445,3,6,568,0,0,0,0,2588,5356,0
 
 The classes with the `?` are provided by [RepeatMasker](http://www.repeatmasker.org/). For example [MER129](http://www.repeatmasker.org/cgi-bin/ViewRepeat?id=MER129) is classified as `LTR?`. You may merge LTR? with LTR or ignore those.
 
+This is the distribution of repeat classes with sufficient number of supporting reads. Presented as a table
+
+```
+sample	LTR	DNA	LINE	SINE
+mappedReads_chr22	2445	568	2588	5356
+``
+
+Alternatively you can visualize it as a pie chart  
 
 ![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_class1.png)
 
