@@ -108,3 +108,8 @@ You can use `/example/mappedReads_chr22.csv` to create pie chart. The  pie chart
 
 Read more about Genomic Profile of RNA-Seq [here](https://github.com/smangul1/rop/wiki/ROP-output-details).
 
+
+##Profile of repeat elements
+```
+python rprofile.py example/mappedReads_chr22.bam example/mappedReads_chr22_repeatProfile
+```
