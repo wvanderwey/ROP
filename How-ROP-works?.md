@@ -1,23 +1,5 @@
-The ROP is able to explore both mapped(optional) and unmapped reads. 
-
-[Foo](#foo)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ROP protocol consists of two (optional) modules to categorize the mapped reads:
-* Genomic profile of RNA-Seq. We developed [gprofile](https://github.com/smangul1/gprofile), a  tools to categorize mapped reads into genomic categories (CDS, UTR, intons, etc)  (details)
+* Genomic profile of RNA-Seq. We developed [gprofile](https://github.com/smangul1/gprofile), a  tool to categorize mapped reads into genomic categories (CDS, UTR, intons, etc)  (details)
 * Profile of repeat elements. We developed [rprofile](https://github.com/smangul1/rprofile), a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs)
 
 ROP protocol consist of six steps to characterize the unmapped reads:
