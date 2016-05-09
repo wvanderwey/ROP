@@ -77,12 +77,15 @@ The `/ropOut/` directory now contains the output of ROP. To navigate to the ropO
 cd /tutorial/ropOut/
 ```
 
-The directory contains individual directions for each types of the ROP analysis. The structure of the ROP output is explained [here](https://github.com/smangul1/rop/wiki/ROP-output-details)
+The directory contains individual directions for each types of the ROP analysis. The ropOut directory now contains the output of ROP. The structure of the output is explained here. For example it contains /antibodyProfile/ directory with reads spanning antigen receptor gene rearrangement in the variable domain being identified by IgBLAST. The structure of the ROP output is explained [here](https://github.com/smangul1/rop/wiki/ROP-output-details)
 
 
-#Genomic profile of RNA-Seq
+###Genomic profile of RNA-Seq
 
-The ROP pipeline consist of two optional modules to characterize the mapped reads. To activate the genomic profile module, use --gprofile option. To activate the genomic profile module, use --rprofile option. Make sure to provide the mapped reads in .bam format. TO download the mapped reads in .bam format use this command 
+The ROP pipeline consist of two optional modules to characterize the mapped reads. One module to  
+
+
+To activate the genomic profile module, use --gprofile option. To activate the genomic profile module, use --rprofile option. Make sure to provide the mapped reads in .bam format. TO download the mapped reads in .bam format use this command 
 
 ```
 sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron,nIntergenic,nDeep,nMT,nMultiMapped
