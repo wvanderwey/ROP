@@ -1,6 +1,6 @@
 ###[What is ROP?] (https://github.com/smangul1/rop/wiki/What-is-ROP%3F)
 ###[How to install ROP?] (https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
 ###[Get started] (https://github.com/smangul1/rop/wiki/Get-started)
-###[Tutorial (based on one sample)] (https://github.com/smangul1/rop/wiki/Tutorial-(based-on-one-RNA-Seq-sample))
+###[Tutorial (based on one sample)] (https://github.com/smangul1/rop/wiki/Tutorial-(based-on-one-sample))
 ###[ROP output details] (https://github.com/smangul1/rop/wiki/ROP-output-details)
 ###[How to map reads and save unmapped reads?] (https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads)
