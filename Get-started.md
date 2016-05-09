@@ -66,7 +66,7 @@ For more details see:
 http://serghei.bioinformatics.ucla.edu/rop/
 https://github.com/smangul1/rop/wiki
 *********************************************
-/u/home/s/serghei/code2/rop/example/rop1/NCL//unmappedExample_circRNA.csv
+/u/home/s/serghei/code2/rop/example/rop6/NCL//unmappedExample_circRNA.csv
 Processing 2508 unmapped reads
 1. Quality Control...
 --filtered 2193 low quality reads
@@ -82,16 +82,16 @@ In toto : 2217 reads failed QC and are filtered out
 ***Note : Trans-spicing and gene fusions  are currently not supported, but will be in the next release.
 --identified 2 reads from circRNA
 4a. B lymphocytes profiling...
-/u/home/s/serghei/code2/rop/example/rop1/BCR/IGH/unmappedExample_IGH_igblast.csv
+/u/home/s/serghei/code2/rop/example/rop6/BCR/IGH/unmappedExample_IGH_igblast.csv
 --identified 1 reads mapped to immunoglobulin heavy (IGH) locus
---identified 0 reads mapped to immunoglobulin kappa (IGK) locus 
+--identified 2 reads mapped to immunoglobulin kappa (IGK) locus 
 --identified 1 reads mapped to immunoglobulin lambda (IGL) locus
 4b. T lymphocytes profiling...
 --identified 0 reads mapped to T cell receptor alpha (TCRA) locus
 --identified 2 reads mapped to T cell receptor beta (TCRB) locus
 --identified 1 reads mapped to T cell receptor delta (TCRD) locus
 --identified 0 reads mapped to T cell receptor gamma locus (TCRG) locus
-In toto : 5 reads mapped to antibody repertoire loci
+In toto : 7 reads mapped to antibody repertoire loci
 ***Note : Combinatorial diversity of the antibody repertoire (recombinations of the of VJ gene segments)  will be available in the next release.
 5.  Microbiome profiling...
 --identified 0 reads mapped bacterial genomes
@@ -106,8 +106,8 @@ In toto : 5 reads mapped to antibody repertoire loci
 --identified 0 reads mapped trich genomes
 --identified 0 reads mapped tritryp genomes
 In toto : 7 reads mapped to microbial genomes
-Summary:   The ROP protocol is able to account for 2236 reads
-***Unaccounted reads (not explained by ROP) are saved to /u/home/s/serghei/code2/rop/example/rop1/unmappedExample_unaccountedReads.fasta
+Summary:   The ROP protocol is able to account for 2238 reads
+***Unaccounted reads (not explained by ROP) are saved to /u/home/s/serghei/code2/rop/example/rop6/unmappedExample_unaccountedReads.fasta
 ```
 
 The ropOut directory now contains the output of ROP. The structure of the output is explained [here](https://github.com/smangul1/rop/wiki/ROP-output-details). For example it contains `/antibodyProfile/` directory with reads spanning antigen receptor gene rearrangement in the variable domain being identified by [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/). 
