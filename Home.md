@@ -4,3 +4,5 @@
 ###[Tutorial (based on one sample)] (https://github.com/smangul1/rop/wiki/Tutorial-(based-on-one-sample))
 ###[ROP output details] (https://github.com/smangul1/rop/wiki/ROP-output-details)
 ###[How to map reads and save unmapped reads?] (https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads)
+###[Source of every last read](https://github.com/smangul1/rop/wiki/Source-of-every-last-read)
+####[Additional options](https://github.com/smangul1/rop/wiki/Additional-options)
