@@ -55,7 +55,8 @@ Summary:   The ROP protocol is able to account for 2231 reads
 Additionally ROP creates ``numberReads_<sampleName>.log`` with the number of reads detected in each step in the `.csv` format. An example of ``numberReads_<sampleName>.log`` is provided bellow:
 
 ```
-unmappedExample,2505,2193,2,22,6,1,0,7
+sample,totalReads,lowQuality,lowComplexity,rRNA,lostHumanReads,lostRepeatReads,immuneReads,microbiomeReads,unaccountedReads
+unmappedExample,2508,2193,2,22,6,1,5,7,272
 ```
 
 ROP is also able to find the the source of mapped reads. ROP is able to categorize the mapped reads into genomic and repeat features. An example of a file with reads assigned to the genomic features is presented bellow:
@@ -68,7 +69,6 @@ SRR1146076.20543213,22,UTR5
 SRR1146076.9808865,22,DEEP
 SRR1146076.16863731,22,INTERGENIC
 SRR1146076.968340,22,UTR3
-...
 ```
 
 
