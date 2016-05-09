@@ -16,7 +16,7 @@ cd tutorial
 mkdir data
 ```
 
-Now, download the mapped and unmapped reads from RNA-Seq
+Now, download the unmapped reads from RNA-Seq
 
 ```
 wget (to fix)
@@ -82,17 +82,40 @@ The directory contains individual directions for each types of the ROP analysis.
 
 ###Genomic profile of RNA-Seq
 
-The ROP pipeline consist of two optional modules to characterize the mapped reads. One module to  
+To get the genomic profile of the mapped reads use `gprofile.py`. First navigate to '/tutorial/data/' a subdirectory to store the training data. 
+
+```
+cd /tutorial/data/
+```
+
+Then download the mapped reads using the following command:
 
 
-To activate the genomic profile module, use --gprofile option. To activate the genomic profile module, use --rprofile option. Make sure to provide the mapped reads in .bam format. TO download the mapped reads in .bam format use this command 
+```
+wget (to fix)
+```
+
+This is how to run `gprofile.py`:
+
+```
+python gprofile.py /tutorial/data//mapped_SR_1146076.bam /tutorial/data/mapped_SR_1146076_genomicProfile.csv
+```
+
+The output of the module is number of reads assigned to each genomic category saved into the `/tutorial/data/mapped_SR_1146076_genomicProfile.csv`
+
 
 ```
 sampleName,nTotalMapped,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron,nIntergenic,nDeep,nMT,nMultiMapped
 mapped_SR_1146076,17904083,5425835,4535762,3589107,362853,963938,765359,195246,32345,1061075,972563
 ```
 
+You can use `/tutorial/data/mapped_SR_1146076_genomicProfile.csv` to create pie chart. The pie chart corresponding to ``/tutorial/data/mapped_SR_1146076_genomicProfile.csv`` is presented bellow:
+
 ![](https://sergheimangul.files.wordpress.com/2016/05/gprofile1.png?w=1280)
+
+
+
+
 
 
 
@@ -100,19 +123,6 @@ mapped_SR_1146076,17904083,5425835,4535762,3589107,362853,963938,765359,195246,3
 
 
 ![](https://sergheimangul.files.wordpress.com/2016/05/rprofile_family1.png)
-
-After ROP is completed. Please navigate to the analysis directory
-
-```
-cd tutorial/data/
-wget (to fix)
-```
-
-After the bam file was downloaded run the following ROP command 
-
-```
-python rop.py --mapped tutorial/data/mapped_SR_1146076.bam tutorial/data/unmapped_SR_1146076.fastq /tutorial/ropOut/
-```
 
 
 More details about additional options and strategies of the ROP are available [here](https://github.com/smangul1/rop/wiki/Additional-options)
