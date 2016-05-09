@@ -1,7 +1,7 @@
 The ROP is able to explore both mapped(optional) and unmapped reads. 
 
 ### 4 - CONTRIBUTE
-[CONTRIBUTE](.#4---contribute)
+[CONTRIBUTE](#4---contribute)
 
 
 ROP protocol consists of two (optional) modules to categorize the mapped reads:
