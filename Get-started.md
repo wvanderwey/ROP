@@ -14,7 +14,7 @@ Details are [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
 
 #Toy example
 
-Small training data (3000 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note 
+Small training data (2508 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note 
 that selected reads are randomly selected and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory:
 
 ```
