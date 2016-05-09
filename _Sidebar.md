@@ -1,7 +1,5 @@
 [[[https://sergheimangul.files.wordpress.com/2016/05/rop_logo1.png|alt="ROP"|height=170px|width=170px]]](https://sergheimangul.wordpress.com/rop/)
 
-Read Origin Protocol 
-===============
 
 ######[What is ROP?](https://github.com/smangul1/rop/wiki/What-is-ROP%3F)
 ######[How ROP works?] (https://github.com/smangul1/rop/wiki/How-ROP-works%3F)
