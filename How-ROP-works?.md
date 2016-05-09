@@ -2,7 +2,7 @@ ROP protocol consists of two (optional) modules to categorize the mapped reads:
 * Genomic profile of RNA-Seq. We developed [gprofile](https://github.com/smangul1/gprofile), a  tool to categorize mapped reads into genomic categories (CDS, UTR, intons, etc)  (details)
 * Profile of repeat elements. We developed [rprofile](https://github.com/smangul1/rprofile), a tool to profile repetitive elements (e.g. SINEs, LINEs, LTRs)
 
-ROP protocol consist of six steps to characterize the unmapped reads:
+ROP protocol consists of six steps to characterize the unmapped reads:
 
 1. Quality control. Exclude low-quality, low-complexity and rRNA reads ([FASTX](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html), [SEQCLEAN](https://sourceforge.net/projects/seqclean/), [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/))
 2. Identify lost human reads, which are missed due to the heuristics implemented for computational speed in conventional aligners. These include reads with mismatches and short gaps relative to the reference set, but can also include perfectly matched reads ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/))
