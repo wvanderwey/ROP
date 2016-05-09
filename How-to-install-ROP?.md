@@ -1,5 +1,3 @@
-#How to install ROP?
-
 Please get the latest release from [here](https://github.com/smangul1/rop/releases).
 
 Please make sure that the basic unix commands (tar) are available on the cluster. The package  can be downloaded as zip or tar.gz compressed archives. In a Unix environment, you can obtain and uncompress it from the command line:
