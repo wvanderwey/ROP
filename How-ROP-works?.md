@@ -14,7 +14,6 @@ The ROP is able to explore both mapped(optional) and unmapped reads.
 
 
 
-# Foo
 
 
 ROP protocol consists of two (optional) modules to categorize the mapped reads:
@@ -149,3 +148,6 @@ Thus reads mapped to the constant regions of the antigen receptors allows to est
 ##Step 6. Microbiome profiling
 
 The remaining unmapped reads are potentially microbial in origin.  We use microbial genomes ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)) and phylogenetic marker genes ([MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan)) to identify microbial reads and assign them to corresponding taxa. Microbial reads could have been introduced by contamination or the natural microbiome of the samples, which includes viral, bacterial, or other microbial species. 
+
+
+# Foo
