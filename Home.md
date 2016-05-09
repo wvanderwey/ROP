@@ -1,5 +1,5 @@
 ###[What is ROP?] (https://github.com/smangul1/rop/wiki/What-is-ROP%3F)
 ###[Get started] (https://github.com/smangul1/rop/wiki/Get-started)
-###[Tutorial (based on one RNA Seq sample)] (https://github.com/smangul1/rop/wiki/Tutorial-(based-on-one-RNA-Seq-sample))
 ###[How to install ROP?] (https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
+###[Tutorial (based on one RNA Seq sample)] (https://github.com/smangul1/rop/wiki/Tutorial-(based-on-one-RNA-Seq-sample))
 ###[ROP output details] (https://github.com/smangul1/rop/wiki/ROP-output-details)
