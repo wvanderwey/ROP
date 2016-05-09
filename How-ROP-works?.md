@@ -6,7 +6,7 @@ ROP protocol consists of two (optional) modules to categorize the mapped reads:
 
 ROP protocol consist of six steps to characterize the unmapped reads:
 
-1. [Link-name2](#Genomic profile of RNA-Seq) Quality control. Exclude low-quality, low-complexity and rRNA reads ([FASTX](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html), [SEQCLEAN](https://sourceforge.net/projects/seqclean/), [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/))
+1. [Link-name2](##Genomic profile of RNA-Seq) Quality control. Exclude low-quality, low-complexity and rRNA reads ([FASTX](http://hannonlab.cshl.edu/fastx_toolkit/commandline.html), [SEQCLEAN](https://sourceforge.net/projects/seqclean/), [Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/))
 2. Identify lost human reads, which are missed due to the heuristics implemented for computational speed in conventional aligners. These include reads with mismatches and short gaps relative to the reference set, but can also include perfectly matched reads ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/))
 1. Identify lost repeat sequences, by mapping unmapped reads onto the database of repeat sequences ([Megablast](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) )
 1. Identify ‘non-co-linear’ RNAs reads from circRNAs, gene fusions, and trans-splicing events, which combine sequence from distant elements (ncSplice, [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) , [CIRI](https://github.com/Frenzchen/ncSplice))
