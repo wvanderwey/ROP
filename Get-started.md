@@ -21,6 +21,26 @@ that selected reads are randomly selected and might not represent the typical re
 /rop/example/unmappedExample.fastq
 ```
 
+Please make sure that the basic unix commands (wget, python, perl) are available on the cluster.  Please install ROP first. The instructions how to install ROP are provided [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F) 
+
+The first operation consists in navigating to ROP directory and creating a subdirectory for storing the training data. 
+
+```
+cd rop
+mkdir tutorial
+cd tutorial
+mkdir data
+```
+
+Now, download the mapped and unmapped reads from RNA-Seq
+
+```
+wget (to fix)
+```
+
+ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
+
+
 ROP requires two mandatory command line arguments, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP.
 
 ```
