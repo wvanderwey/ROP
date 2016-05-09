@@ -24,6 +24,15 @@ wget (to fix)
 
 Now you are ready to analyze the RNA-Seq sample using ROP. We are running ROP using the default options. ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
 
+ROP requires two mandatory command line arguments, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP.
+
+```
+usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
+                     [--circRNA] [--immune] [--gzip] [--quiet] [--dev]
+                     [--license]
+                     unmappedReads dir
+```
+
 To run ROP for unmapped reads in .bam format 
 ```
 python rop.py --b tutorial/data/unmapped_SR_1146076.bam /tutorial/ropOut/
