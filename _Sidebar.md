@@ -1,1 +1,1 @@
-qwerqwer
+[How ROP works?] (https://github.com/smangul1/rop/wiki/How-ROP-works%3F)
