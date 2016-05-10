@@ -51,7 +51,7 @@ You should expect the following output of the ROP pipeline on your screen:
 ROP is a computational protocol aimed to discover the source of all reads, originated from complex RNA molecules, recombinant antibodies and microbial communities. Written by Serghei Mangul (smangul@ucla.edu) and Harry Taegyun Yang (harry2416@gmail.com), University of California, Los Angeles (UCLA). (c) 2016. Released under the terms of the General Public License version 3.0 (GPLv3)
 
 For more details see:
-http://serghei.bioinformatics.ucla.edu/rop/
+https://sergheimangul.wordpress.com/rop/
 https://github.com/smangul1/rop/wiki
 *********************************************
 Processing 7687003 unmapped reads
@@ -67,6 +67,33 @@ In toto : 7033965 reads failed QC and are filtered out
 ***Note : Repeat sequences classification into classes (e.g. LINE) and families (e.g. Alu) will be available in next release
 3. Non-co-linear RNA profiling
 ***Note : Trans-spicing and gene fusions  are currently not supported, but will be in the next release.
+--identified 1924 reads from circRNA
+4a. B lymphocytes profiling...
+--identified 720 reads mapped to immunoglobulin heavy (IGH) locus
+--identified 672 reads mapped to immunoglobulin kappa (IGK) locus 
+--identified 403 reads mapped to immunoglobulin lambda (IGL) locus
+4b. T lymphocytes profiling...
+--identified 33 reads mapped to T cell receptor alpha (TCRA) locus
+--identified 55 reads mapped to T cell receptor beta (TCRB) locus
+--identified 10 reads mapped to T cell receptor delta (TCRD) locus
+--identified 8 reads mapped to T cell receptor gamma locus (TCRG) locus
+In toto : 1901 reads mapped to antibody repertoire loci
+***Note : Combinatorial diversity of the antibody repertoire (recombinations of the of VJ gene segments)  will be available in the next release.
+5.  Microbiome profiling...
+--identified 1577 reads mapped bacterial genomes
+--identified 34 reads mapped viral genomes
+--identified 5683 reads mapped ameoba genomes
+--identified 3157 reads mapped crypto genomes
+--identified 20 reads mapped giardia genomes
+--identified 133 reads mapped microsporidia genomes
+--identified 359 reads mapped piroplasma genomes
+--identified 2961 reads mapped plasmo genomes
+--identified 8076 reads mapped toxo genomes
+--identified 1 reads mapped trich genomes
+--identified 133 reads mapped tritryp genomes
+In toto : 22134 reads mapped to microbial genomes
+Summary:   The ROP protocol is able to account for 7078140 reads
+***Unaccounted reads (not explained by ROP) are saved to /u/scratch/b/brigitta/skin/out/unmapped_SR_1146076_unaccountedReads.fasta
 ```
 
 
