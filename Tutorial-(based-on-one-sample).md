@@ -96,7 +96,7 @@ Summary:   The ROP protocol is able to account for 7078140 reads
 ***Unaccounted reads (not explained by ROP) are saved to /u/scratch/b/brigitta/skin/out/unmapped_SR_1146076_unaccountedReads.fasta
 ```
 
-
+Alternatively, you can access the ROP message from the `unmapped_SR_1146076.log` logfile. 
  
 The `/ropOut/` directory now contains the output of ROP. To navigate to the ropOut directory use this command 
 
