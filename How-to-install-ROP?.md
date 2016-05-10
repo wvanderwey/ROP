@@ -14,10 +14,9 @@ ROP requires the prepared reference databases for human and microbial sequences,
 
 ```
 cd rop
-python install.py
+python install.py --standard
 ```
  
 The 'installation' might take up to  45 minutes on average and requires 30Gb of available space to download the references.
-
 
 
