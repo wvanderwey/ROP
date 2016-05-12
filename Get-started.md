@@ -1,5 +1,5 @@
 
-For a quick start a toy example (2508 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note that selected reads are randomly selected from a normal skin (SRR1146076) RNA-Seq sample and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory. Instruction for the analysis of the full RNA-Seq sample (SRR1146076) are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-one-sample).
+For a quick start a toy example, 2508 unmapped reads saved in .fastq format are distributed with the ROP package. Please note that selected reads are randomly selected from a normal skin (SRR1146076) RNA-Seq sample and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory. Instruction for the analysis of the full RNA-Seq sample (SRR1146076) are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-one-sample).
 
 ```
 /rop/example/unmappedExample.fastq
