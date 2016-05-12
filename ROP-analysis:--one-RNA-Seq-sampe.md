@@ -11,7 +11,7 @@ The first operation consists in navigating to ROP directory and creating a subdi
 
 ```
 cd rop
-mkdir tutorial
+mkdir tutorialwg
 cd tutorial
 mkdir data
 ```
@@ -121,7 +121,7 @@ Then download the mapped reads using the following command:
 
 ```
 wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
-tar -xvf 
+tar -xvf skinExample.tar
 ```
 
 This is how to run `gprofile.py`:
