@@ -19,7 +19,8 @@ mkdir data
 Now, download the unmapped reads from RNA-Seq
 
 ```
-wget (to fix)
+wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
+tar -xvf skinExample.tar
 ```
 
 Now you are ready to analyze the RNA-Seq sample using ROP. We are running ROP using the default options. ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
@@ -119,7 +120,8 @@ Then download the mapped reads using the following command:
 
 
 ```
-wget (to fix)
+wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
+tar -xvf 
 ```
 
 This is how to run `gprofile.py`:
