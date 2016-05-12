@@ -3,7 +3,7 @@ that proposed sample is not necessarily the most typical RNA-Seq sample and is p
 
 In this tutorial we provide the mapped and unmapped reads of the RNA-Seq sample. The size of the unmapped reads in .fastq format is  1.4G. The size of the unmapped reads in .bam format is 0.3G. The size of the mapped reads (.bam) is 1.2G. 
 
-In general case you will need to map the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)) and save unmapped reads in .bam (binary file, requires less space) or .fastq (text format) format. The instructions how to map the reads and save the unmapped reads are provided [here](https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads). 
+In general case, you will need to map the reads with any of available high-throughput aligners (e.g. [tophat2](https://ccb.jhu.edu/software/tophat/index.shtml), [STAR](https://github.com/alexdobin/STAR)) and save unmapped reads in .bam (binary file, requires less space) or .fastq (text format) format. The instructions how to map the reads and save the unmapped reads are provided [here](https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads). 
 
 Please make sure that the basic unix commands (wget, python, perl) are available on the cluster.  Please install ROP first. The instructions how to install ROP are provided [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F) 
 
@@ -23,7 +23,7 @@ wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
 tar -xvf skinExample.tar
 ```
 
-Now you are ready to analyze the RNA-Seq sample using ROP. We are running ROP using the default options. ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
+Now, you are ready to analyze the RNA-Seq sample using ROP. We are running ROP using the default options. ROP is an intensive pipeline requiring substantial amount of computational resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
 
 ROP requires two mandatory command line arguments, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP.
 
@@ -34,7 +34,7 @@ usage: python rop.py [-h] [--qsub] [--qsubArray] [--b] [--skipLowq] [--skipQC]
                      unmappedReads dir
 ```
 
-To run ROP for unmapped reads in .bam format 
+To run ROP for unmapped reads in .bam format, use --b option
 ```
 python rop.py --b tutorial/data/unmapped_SR_1146076.bam /tutorial/ropOut/
 ```
