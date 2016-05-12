@@ -5,6 +5,7 @@ We assume you have a basic knowledge of sequence analysis and of Unix-based oper
 ######[What is ROP?] (https://github.com/smangul1/rop/wiki/What-is-ROP%3F)
 ######[How ROP works?] (https://github.com/smangul1/rop/wiki/How-ROP-works%3F)
 ######[How to install ROP?] (https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
+######[Unix Tutorial] (https://github.com/smangul1/rop/wiki/UNIX-Tutorial)
 ######[Get started] (https://github.com/smangul1/rop/wiki/Get-started)
 ######[ROP analysis of one sample] (https://github.com/smangul1/rop/wiki/ROP-analysis-of-one-sample)
 ######[ROP output details] (https://github.com/smangul1/rop/wiki/ROP-output-details)
