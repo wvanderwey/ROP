@@ -11,7 +11,7 @@ The first operation consists in navigating to ROP directory and creating a subdi
 
 ```
 cd rop
-mkdir tutorialwg
+mkdir tutorial
 cd tutorial
 mkdir data
 ```
