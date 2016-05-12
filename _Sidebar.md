@@ -5,7 +5,7 @@
 ######[How ROP works?] (https://github.com/smangul1/rop/wiki/How-ROP-works%3F)
 ######[How to install ROP?] (https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
 ######[Get started] (https://github.com/smangul1/rop/wiki/Get-started)
-######[ROP analysis of one sample] (https://github.com/smangul1/rop/wiki/ROP-analysis-of-one-sample)
+######[ROP analysis: one RNA-Seq sample] (https://github.com/smangul1/rop/wiki/ROP-analysis:--one-RNA-Seq-sampe)
 ######[ROP output details] (https://github.com/smangul1/rop/wiki/ROP-output-details)
 ######[How to map reads and save unmapped reads?] (https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads)
 ######[Source of every last read](https://github.com/smangul1/rop/wiki/Source-of-every-last-read)
