@@ -17,7 +17,9 @@ Details are [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
 Small training data (2508 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note 
 that selected reads are randomly selected from a normal skin (SRR1146076) RNA-Seq sample and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory: 
 
-```/rop/example/unmappedExample.fastq```
+```
+/rop/example/unmappedExample.fastq
+```
 
 
 Instruction for the analysis of full RNA-Seq sample (SRR1146076) are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-one-sample).
