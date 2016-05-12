@@ -1,5 +1,5 @@
 
-For a quick start a toy example with 2508 unmapped reads is distributed with the ROP package. Please note that selected reads are randomly selected from a normal skin (SRR1146076) RNA-Seq sample and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory. Instruction for the analysis of the full RNA-Seq sample (SRR1146076) are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis:--one-RNA-Seq-sampe).
+For a quick start, a toy example with 2508 unmapped reads is distributed with the ROP package. Please note that selected reads are randomly selected from a normal skin (SRR1146076) RNA-Seq sample and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory. Instruction for the analysis of the full RNA-Seq sample (SRR1146076) are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis:--one-RNA-Seq-sampe).
 
 ```
 /rop/example/unmappedExample.fastq
@@ -10,7 +10,7 @@ For a quick start a toy example with 2508 unmapped reads is distributed with the
 
 Please make sure that the basic unix commands (wget, python, perl) are available on the cluster.  Please install ROP first. The instructions how to install ROP are provided [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F) 
 
-The first operation consists in navigating to ROP directory and creating a subdirectory for storing the training data. 
+The first operation consists of navigating to ROP directory and creating a subdirectory for storing the training data. 
 
 ```
 cd rop
@@ -22,7 +22,8 @@ mkdir data
 Now, download the mapped and unmapped reads from RNA-Seq
 
 ```
-wget (to fix)
+wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
+tar -xvf skinExample.tar 
 ```
 
 ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
