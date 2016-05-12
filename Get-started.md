@@ -1,18 +1,6 @@
-##About the ROP tutorial 
 
-This tutorial focuses on performing a comprehensive analysis analysis of unmapped reads to profile repeats, circRNAs, gene fusions, trans-splicing events, recombined B/T-cell receptor sequences and microbial communities. This tutorial is a step-by-step description of the ROP (Read Origin Protocol) pipeline to explore the unmapped reads left from you study.
 
-We assume you have a basic knowledge of sequence analysis and of Unix-based operating systems (although you should be able to run the pipeline on MacOS, some commands may require modification). If you have limited knowledge of UNIX, we encourage you to follow the online [video tutorial](http://qcb.ucla.edu/collaboratory/workshops/collaboratory-workshop-1/) for UNIX . The UNIX tutorial is 9 hour video tutorial covering the basic concepts of UNIX operating system. After completing the tutorial you should be able to confidently use the command line interface on either a local (laptop) or remote (cluster) Unix system and to navigate around the Unix file system from the command line and use a number of basic, common Unix commands. The UNIX tutorial is supplemented with many hands-on exercises. 
-
-Alternatively you can use slides from the UNIX tutorial : [Day1](https://www.dropbox.com/s/ggv7ijwateim7zt/day1_Unix.pdf?dl=0), [Day2](https://www.dropbox.com/s/xorsuvk1cugiyw8/day2_Unix.pdf?dl=0), [Day3] (https://www.dropbox.com/s/88wu7svvfur8upw/day3_Unix.pdf?dl=0)
-
-Please do not hesitate to contact us (smangul@ucla.edu) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.
-
-#How to install ROP?
-
-Details are [here](https://github.com/smangul1/rop/wiki/How-to-install-ROP%3F)
-
-#Toy example
+We provide the toy example 
 
 Small training data (2508 unmapped reads saved in .fastq format) is distributed with the ROP package. Please note 
 that selected reads are randomly selected from a normal skin (SRR1146076) RNA-Seq sample and might not represent the typical reads of RNA-Seq experiment. The reads are provided for demonstration purposes and can be accessed under ROP directory. Instruction for the analysis of the full RNA-Seq sample (SRR1146076) are provided [here](https://github.com/smangul1/rop/wiki/ROP-analysis-of-one-sample).
