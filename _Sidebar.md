@@ -1,4 +1,4 @@
-[[[https://sergheimangul.files.wordpress.com/2016/05/rop_logo1.png|alt="ROP"|height=170px|width=170px]]](https://sergheimangul.wordpress.com/rop/)
+[[[https://sergheimangul.files.wordpress.com/2016/05/logo.png|alt="ROP"|height=170px|width=170px]]](https://sergheimangul.wordpress.com/rop/)
 
 
 ######[What is ROP?](https://github.com/smangul1/rop/wiki/What-is-ROP%3F)
