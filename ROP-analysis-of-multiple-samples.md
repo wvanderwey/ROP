@@ -52,3 +52,18 @@ Copy the `myFuncFastWrapper.sh` from ROP directory
 ```
 cp <dir>/rop/source/myFuncFastWrapper.sh ./
 ```
+Now you are ready to submit job array:
+
+```
+qsub -cwd -V -N rop -l h_data=16G,express,time=24:00:00 -t 1-1573:1 myFuncFastWrapper.sh
+```
+
+
+This is the message you expect see 
+
+```
+Your job-array 30090.1-1573:1 ("rop") has been submitted
+```
+
+Congratulations!!! Now you are running 1573 jobs!!!
+
