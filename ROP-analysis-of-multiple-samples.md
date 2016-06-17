@@ -20,3 +20,8 @@ chmod 755 all.sh
 nohup ./all.sh &
 ```
 
+In case you have filtered fasta files (after step 1-2 of ROP) and you are planning to do microbiome profiling only, use this command:
+
+```
+while read line ; do python ~/collab/code/rop/rop.py --skipPreliminary --microbiome  --qsub $PWD/afterQC/${line}.fasta $PWD//rop2/${line};done<samples.txt
+```
