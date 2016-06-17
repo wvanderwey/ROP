@@ -25,3 +25,10 @@ In case you have filtered fasta files (after step 1-2 of ROP) and you are planni
 ```
 while read line ; do python ~/collab/code/rop/rop.py --skipPreliminary --microbiome  --qsub $PWD/afterQC/${line}.fasta $PWD//rop2/${line};done<samples.txt
 ```
+
+If the number of samples is larger then the number of jobs allowed on the cluster use  `--qsubArray`
+
+
+```
+while read line ; do python /u/home/s/serghei//collab/code/rop/rop.py --skipPreliminary --microbiome  --qsubArray $PWD/data/${line}.fasta $PWD//rop/${line};done<sample.txt
+```
