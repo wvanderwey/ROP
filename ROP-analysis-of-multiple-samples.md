@@ -41,4 +41,14 @@ This command should finish fast. Next you need to generate `myFunc.sh`
 ls */microbiomeProfile/*/run* | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
 ```
 
+Next count how many jobs you have:
 
+```
+wc -l myFunc.sh
+```
+
+Copy the `myFuncFastWrapper.sh` from ROP directory 
+
+```
+cp <dir>/rop/source/myFuncFastWrapper.sh ./
+```
