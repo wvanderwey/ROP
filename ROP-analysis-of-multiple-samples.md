@@ -28,7 +28,7 @@ while read line ; do python ~/collab/code/rop/rop.py --skipPreliminary --microbi
 
 
 
-If the number of samples is larger then the number of jobs allowed on the cluster use  `--qsubArray`
+If the number of samples is larger then the number of jobs allowed on the cluster use  `--qsubArray`. 
 
 
 ```
@@ -66,4 +66,15 @@ Your job-array 30090.1-1573:1 ("rop") has been submitted
 ```
 
 Congratulations!!! Now you are running 1573 jobs!!!
+
+
+After you prepared the filtered fasta file (after step1-2)  you can run a targeted analysis to profile  B cell and T cell receptors as follows:
+
+```
+ls */antibodyProfile/*/*/run* | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
+```
+
+
+
+
 
