@@ -39,6 +39,7 @@ This command should finish fast. Next you need to generate `myFunc.sh`
 
 ```
 ls */microbiomeProfile/*/run* | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
+chmod 755 */microbiomeProfile/*/run*
 ```
 
 Next count how many jobs you have:
@@ -72,6 +73,7 @@ After you prepared the filtered fasta file (after step1-2)  you can run a target
 
 ```
 ls */antibodyProfile/*/*/run* | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
+chmod 755 */antibodyProfile/*/*/run*
 ```
 
 
