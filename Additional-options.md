@@ -1,4 +1,4 @@
-In case you wan to skip STEP1 (Quality Control) please use option `--skipQC`. Please note that in this case low quality , low complexity and rRNA reads will not be filtered out. The input reads must be in the FASTA format (`.fa`  or `.fasta` extension)
+In case you are interested to skip STEP1 (Quality Control) please use option `--skipQC`. Please note that in this case low quality , low complexity and rRNA reads will not be filtered out. The input reads must be in the FASTA format (`.fa`  or `.fasta` extension)
 
 Please run ROP as follows:
 
