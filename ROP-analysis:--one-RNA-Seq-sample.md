@@ -66,21 +66,21 @@ In toto : 7033965 reads failed QC and are filtered out
 3. Maping to repeat sequences...
 -Identify 3862 lost repeat sequences from unmapped reads
 ***Note : Repeat sequences classification into classes (e.g. LINE) and families (e.g. Alu) will be available in next release
-3. Non-co-linear RNA profiling
+4. Non-co-linear RNA profiling
 ***Note : Trans-spicing and gene fusions  are currently not supported, but will be in the next release.
 --identified 1924 reads from circRNA
-4a. B lymphocytes profiling...
+5a. B lymphocytes profiling...
 --identified 720 reads mapped to immunoglobulin heavy (IGH) locus
 --identified 672 reads mapped to immunoglobulin kappa (IGK) locus 
 --identified 403 reads mapped to immunoglobulin lambda (IGL) locus
-4b. T lymphocytes profiling...
+5b. T lymphocytes profiling...
 --identified 33 reads mapped to T cell receptor alpha (TCRA) locus
 --identified 55 reads mapped to T cell receptor beta (TCRB) locus
 --identified 10 reads mapped to T cell receptor delta (TCRD) locus
 --identified 8 reads mapped to T cell receptor gamma locus (TCRG) locus
 In toto : 1901 reads mapped to antibody repertoire loci
 ***Note : Combinatorial diversity of the antibody repertoire (recombinations of the of VJ gene segments)  will be available in the next release.
-5.  Microbiome profiling...
+6.  Microbiome profiling...
 --identified 1577 reads mapped bacterial genomes
 --identified 34 reads mapped viral genomes
 --identified 5683 reads mapped ameoba genomes
