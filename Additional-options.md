@@ -10,3 +10,5 @@ python rop.py --skipQC example/test.fa example/ropOut60/
 In case you are interested in unmapped reads with the reads from QC step to be filtered out, please use `--dev` option to save the `afterQC.fastq`.  
 
 ##Analysis of interest 
+
+Functionality to run the analysis of interest has been added in  (release 05/16/2016)
