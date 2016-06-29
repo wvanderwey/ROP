@@ -14,9 +14,13 @@ ROP requires the prepared reference databases for human and microbial sequences,
 
 ```
 cd rop
-python install.py --standard
+python getDB.py ~/scratch/db/
 ```
+
+In the versions prior to 1.0.3 the `getDB.py` was named as `installation.py`. Upgrading to the latest version is strongly encouraged. 
  
-The 'installation' might take up to  45 minutes on average and requires 50Gb of available space to download the references.
+Downloading reference databases might take up to  45 minutes on average and requires 50Gb of available space to download the references.
+
+The 'getDB.py' provides the possibility to connect the current version of ROP to the existing database. Please use 
 
 
