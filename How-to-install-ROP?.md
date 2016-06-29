@@ -20,7 +20,7 @@ Downloading reference databases (refDB) might take up to  45 minutes on average 
 
 The 'getDB.py' provides the possibility to connect the current version of ROP to the existing database. Please use `--link2db` option. 
 
-Prior to the release 1.0.3 refDB was downloaded to the ROP directory. 
+Prior to the release 1.0.3 refDB was downloaded to the ROP directory. Now the location to download refDB is a choice of the user. This allows to store the refDB independently from ROP and connect the current version of ROP to the refDB. As you get a new version of ROP there is no need to download refDB again, instead you can just connect the new version of ROP to the existing database (via `--link2db` option).
 
 
 The full list of parameters of 'getDB.py' can be accessed from the help message:
