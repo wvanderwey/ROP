@@ -16,7 +16,6 @@ We assume you have a basic knowledge of sequence analysis and of Unix-based oper
 ######[Additional options](https://github.com/smangul1/rop/wiki/Additional-options)
 ######[How to calculate immune diversity?](https://github.com/smangul1/rop/wiki/How-to-calculate-immune-diversity%3F)
 
-How to calculate immune diversity?
 
 
 Please do not hesitate to contact us (smangul@ucla.edu) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.
