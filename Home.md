@@ -14,6 +14,9 @@ We assume you have a basic knowledge of sequence analysis and of Unix-based oper
 ######[How to map reads and save unmapped reads?] (https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads)
 ######[Source of every last read](https://github.com/smangul1/rop/wiki/Source-of-every-last-read)
 ######[Additional options](https://github.com/smangul1/rop/wiki/Additional-options)
+######[How to calculate immune diversity?](https://github.com/smangul1/rop/wiki/How-to-calculate-immune-diversity%3F)
+
+How to calculate immune diversity?
 
 
 Please do not hesitate to contact us (smangul@ucla.edu) if you have any comments, suggestions, or clarification requests regarding the tutorial or if you would like to contribute to this resource.
