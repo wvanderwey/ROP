@@ -26,7 +26,7 @@ wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
 tar -xvf skinExample.tar 
 ```
 
-ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of you cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
+ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of your cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
 
 
 ROP requires two mandatory command line arguments, i.e. (1) the unmapped reads and (2) the directory to save the results of ROP.
