@@ -73,7 +73,6 @@ n | id| What does it mean?
 3 | pident |percentage of identical matches  
 4 | length |alignment length
 5 | mismatch | number of mismatches
-5 | mismatch | number of mismatches
 6|	 gapopen	| number of gap openings
  7|	 qstart	| start of alignment in query
  8|	 qend	| end of alignment in query
