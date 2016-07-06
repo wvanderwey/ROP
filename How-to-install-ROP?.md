@@ -11,7 +11,7 @@ ROP requires the prepared reference databases for human and microbial sequences,
 
 ```
 cd rop
-python getDB.py ~/scratch/db/
+python getDB.py ~/
 ```
 
 In the versions prior to 1.0.3 the `getDB.py` was named as `installation.py`. Upgrading to the latest version is strongly encouraged. 
