@@ -24,4 +24,5 @@ while read line ; do echo "python /u/home/s/serghei/code2/rop/rop.py --qsubArray
 2. chmod 755 myFunc.sh
 3. chmod 755 *sh
 4. wc -l myFunc.sh
-5. qsub -cwd -V -N metaphan -l h_data=12G,express,time=04:00:00 -t 1-176:1 myFuncFastWrapper.sh
+5. Copy myFuncFastWrapper.sh from rop/source/ to your local directory
+6. qsub -cwd -V -N metaphan -l h_data=12G,express,time=04:00:00 -t 1-176:1 myFuncFastWrapper.sh
