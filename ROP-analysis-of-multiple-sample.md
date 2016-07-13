@@ -25,6 +25,10 @@ Save file names into
 
 ls *fasta | awk -F ".fasta" '{print $1}'>sample.txt 
 
+
+while read line; do echo "python ~/collab/code/rop/rop.py --skipPreliminary --microbiome $PWD/../afterQCFasta/${line}.fasta ${line}">run_${line}.sh;done<../afterQCFasta/sample.txt 
+
+
 1.  ls *sh | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
 2. chmod 755 myFunc.sh
 3. chmod 755 *sh
