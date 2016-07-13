@@ -21,6 +21,10 @@ while read line; do ; python /u/home/s/serghei/code2/rop/rop.py --qsub --skipQC 
 while read line ; do echo "python /u/home/s/serghei/code2/rop/rop.py --qsubArray /u/home/s/serghei/collab/bloodMicrobiome_Oct20/data/replicationRNASeq/data/unmapped/unmapped_${line}.fastq $PWD/${line}/">run_${line}.sh;done<../samples.txt
 
 
+Save file names into 
+
+ls *fasta | awk -F ".fasta" '{print $1}'>sample.txt 
+
 1.  ls *sh | awk '{i+=1;print "if [ $1 == "i" ];then ./"$1" ;fi"}' > myFunc.sh
 2. chmod 755 myFunc.sh
 3. chmod 755 *sh
