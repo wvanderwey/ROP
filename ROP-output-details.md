@@ -99,15 +99,15 @@ This directory contains the output of [Step 5. B and T lymphocytes profiling](ht
 BCR directory contains:
 
 * IGH a directory for immunoglobulin heavy locus profile 
-* IGK a directory for IGK IGK immunoglobulin kappa locus
+* IGK a directory for immunoglobulin kappa locus
 * IGL a directory for immunoglobulin lambda locus profile 
 
 TCR directory contains:
 
 * TCRA a directory for T cell receptor alpha locus
 * TCRB a directory for T cell receptor beta locus
-* TCRD a directory for T cell receptor gamma locus
-* TCRG a directory for T cell receptor delta locus
+* TCRG a directory for T cell receptor gamma locus
+* TCRD a directory for T cell receptor delta locus
 
 Reads spanning antigen receptor gene rearrangement in the variable domain are identified using [IgBLAST](http://mirrors.vbi.vt.edu/mirrors/ftp.ncbi.nih.gov/blast/executables/igblast/release/1.4.0/).  IgBLAST reports
 alignment of the reads to the variable (V) gene, the diversity (D) gene and the joining (J) gene, or the recombination of those. Reads alignment is saved into the `_igblast.csv` (modified tabular output format 6).
