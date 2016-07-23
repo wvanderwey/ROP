@@ -7,6 +7,7 @@
 ######[Unix Tutorial] (https://github.com/smangul1/rop/wiki/UNIX-Tutorial)
 ######[Get started] (https://github.com/smangul1/rop/wiki/Get-started)
 ######[ROP analysis: one RNA-Seq sample] (https://github.com/smangul1/rop/wiki/ROP-analysis:--one-RNA-Seq-sample)
+######[ROP input details] (https://github.com/smangul1/rop/wiki/ROP-input-details)
 ######[ROP output details] (https://github.com/smangul1/rop/wiki/ROP-output-details)
 ######[How to map reads and save unmapped reads?] (https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads)
 ######[Source of every last read](https://github.com/smangul1/rop/wiki/Source-of-every-last-read)
