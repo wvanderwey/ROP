@@ -1,4 +1,4 @@
-ROP accepts : `.fastq`, '.fastq', and '.bam'. Also `.fastq.gz` and `.fasta.gz`
+ROP accepts : `.fastq`, '.fastq', and `.bam`. Input can be in gzip format :  `.fastq.gz` and `.fasta.gz`
 
 To run ROP for `.fastq.gz` input use `--gzip` option as follows:
 
