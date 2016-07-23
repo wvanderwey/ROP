@@ -1,4 +1,4 @@
-ROP is able to detects the source of every last RNA-Seq read. The reads not mapped to the refference genome might originate from complex RNA molecules, recombinant antibodies and microbial communities. The ROP accounts for 98.8% of all reads across poly(A) and ribo-depletion libraries. 
+ROP is able to detect the source of every last RNA-Seq read. The reads not mapped to the refference genome might originate from complex RNA molecules, recombinant antibodies and microbial communities. The ROP accounts for 98.8% of all reads across poly(A) and ribo-depletion libraries. 
 
 Please refer to the `.log` in the output directory (second mandatory command line argument). Logfile contains the information about the number of reads detected in each step of the ROP pipeline.  
 
