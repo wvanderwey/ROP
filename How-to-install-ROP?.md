@@ -1,7 +1,7 @@
 Please make sure that the basic unix commands (tar or zip) are available on the cluster. The package  can be downloaded as zip or tar.gz compressed archives. In a Unix environment, you can obtain and uncompress it from the command line:
 
 ```
-wget wget https://sourceforge.net/projects/rop2/files/latest/download/rop.tar.gz
+wget https://sourceforge.net/projects/rop2/files/latest/download/rop.tar.gz
 tar -zxvf rop.tar.gz
 ```
 
