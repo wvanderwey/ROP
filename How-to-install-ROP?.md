@@ -1,8 +1,8 @@
 Please make sure that the basic unix commands (tar or zip) are available on the cluster. The package  can be downloaded as zip or tar.gz compressed archives. In a Unix environment, you can obtain and uncompress it from the command line:
 
 ```
-wget wget https://sourceforge.net/projects/rop2/files/1.03/rop.zip
-unzip rop.zip
+wget wget https://sourceforge.net/projects/rop2/files/latest/download/rop.tar.gz
+tar -zxvf rop.tar.gz
 ```
 
 No installation is required. The ROP comes with no pre-requirements except Python 2.7. Python 2.7 is required to be installed on the cluster you are planning to perform the analysis. ROP is distributed with several open source components that were developed by other groups (see section Third Party software from [here](https://sergheimangul.wordpress.com//rop/)).
