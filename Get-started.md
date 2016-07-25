@@ -26,6 +26,8 @@ wget https://googledrive.com/host/0B_NUyiE86yDwaUxoVjhlSjN5SkE/skinExample.tar
 tar -xvf skinExample.tar 
 ```
 
+Now you have skin RNA-Seq sample under the dat directory. Remember that you are located under data directory. Go back to rop directory and run `rop.py` from there. 
+
 ROP is an intensive pipeline requiring substantial amount of computations resources. Thus we don't recommend to run ROP from login nodes. Please check the policy of your cluster, from where to run the ROP pipeline. For hoffman2 (UCLA cluster) read the policy [here] (http://ccn.ucla.edu/wiki/index.php/Hoffman2:Interactive_Sessions). 
 
 
