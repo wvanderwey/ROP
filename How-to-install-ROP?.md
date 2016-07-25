@@ -14,7 +14,7 @@ cd rop
 python getDB.py ~/
 ```
 
-Where `~/` means that you are downloading the `db` in your home directory. After running `python getDB.py ~/`, please check the `~/db/`. You expect to see the following subdirectories in the `db` directory
+Where `~/` means that you are downloading the `db` in your home directory. After running `python getDB.py ~/`, please check the `~/db/`. You expect to see the following subdirectories in the `db` directory:
 
 ```
 drwxr-xr-x 3 serghei eeskin 20480 Mar 31 14:22 antibody
@@ -29,6 +29,11 @@ drwxr-xr-x 2 serghei eeskin  4096 Jun 27 23:24 virus
 ```
 
 
+To be sure that the db download was successful, please check the rop directory. Given that you are at `rop` directory, run `ls -l`. Make sure you see `db -> /u/home/s/serghei/project/db/`. This is the link pointing to the `db` you downlaoded. 
+
+
+
+Alternatively, you can specify any directory you want the `db`.  Please the the help message of `getDB.py`
 
 
 In the versions prior to 1.0.3 the `getDB.py` was named as `installation.py`. Upgrading to the latest version is strongly encouraged. 
