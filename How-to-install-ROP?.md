@@ -33,7 +33,7 @@ To be sure that the db download was successful, please check the rop directory. 
 
 
 
-Alternatively, you can specify any directory you want the `db`.  Please the the help message of `getDB.py`
+Alternatively, you can specify any directory you want the `db`.  Please the help message of `getDB.py`
 
 
 In the versions prior to 1.0.3 the `getDB.py` was named as `installation.py`. Upgrading to the latest version is strongly encouraged. 
