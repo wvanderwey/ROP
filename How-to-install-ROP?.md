@@ -14,6 +14,23 @@ cd rop
 python getDB.py ~/
 ```
 
+Where `~/` means that you are downloading the `db` in your home directory. After running `python getDB.py ~/`, please check the `~/db/`. You expect to see the following subdirectories in the `db` directory
+
+```
+drwxr-xr-x 3 serghei eeskin 20480 Mar 31 14:22 antibody
+drwxr-xr-x 2 serghei eeskin  8192 Jun 28 01:42 bacteria
+drwxr-xr-x 2 serghei eeskin  4096 Jun 27 13:03 bowtie2Index
+drwxr-xr-x 2 serghei eeskin  4096 Jun 28 17:37 BWAIndex
+drwxr-xr-x 2 serghei eeskin 16384 Jun 27 22:57 eupathdb
+drwxr-xr-x 2 serghei eeskin  4096 Nov 19  2015 metaphlan
+drwxr-xr-x 3 serghei eeskin  4096 Mar 31 14:22 repeats
+drwxr-xr-x 2 serghei eeskin  4096 Mar 31 14:22 rRNA
+drwxr-xr-x 2 serghei eeskin  4096 Jun 27 23:24 virus
+```
+
+
+
+
 In the versions prior to 1.0.3 the `getDB.py` was named as `installation.py`. Upgrading to the latest version is strongly encouraged. 
  
 Downloading reference databases (refDB) might take up to  45 minutes on average and requires 50Gb of available space to download the references.
