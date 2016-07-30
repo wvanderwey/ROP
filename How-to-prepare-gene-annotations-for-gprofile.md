@@ -27,3 +27,14 @@ awk -F "_" '{print $1}' CDS_NCBIM37.bed | awk '{if($2<0) print}' >CDS_NCBIM37_v2
 awk -F "_" '{print $1}' UTR5_NCBIM37.bed | awk '{if($2<0) print}' >UTR5_NCBIM37_v2.bed
 awk -F "_" '{print $1}' UTR3_NCBIM37.bed | awk '{if($2<0) print}' >UTR3_NCBIM37_v2.bed
 ```
+
+Now let's make a new bed file with the information of the gene each element belong to:
+
+```
+python ../../../scripts/prepareBed.py UTR3_NCBIM37_v2.bed genes_transcripts.txt ../bedPrepared/geneCoordinates_NCBIM37.bed ../bedPrepared/UTR3_NCBIM37_prepared.bed m
+
+python ../../../scripts/prepareBed.py UTR5_NCBIM37_v2.bed genes_transcripts.txt ../bedPrepared/geneCoordinates_NCBIM37.bed ../bedPrepared/UTR5_NCBIM37_prepared.bed m
+
+python ../../../scripts/prepareBed.py CDS_NCBIM37_v2.bed genes_transcripts.txt 
+../bedPrepared/geneCoordinates_NCBIM37.bed ../bedPrepared/CDS_NCBIM37_prepared.bed m
+```
