@@ -23,7 +23,7 @@ Please download UT3, UTR5, and CDS from [here](https://genome.ucsc.edu/cgi-bin/h
 Prepare them in the correct format:
 
 ```
-awk -F "_" '{print $1}' CDS_NCBIM37.bed >CDS_NCBIM37_v2.bed
-awk -F "_" '{print $1}' UTR5_NCBIM37.bed >UTR5_NCBIM37_v2.bed
-awk -F "_" '{print $1}' UTR3_NCBIM37.bed >UTR3_NCBIM37_v2.bed
+awk -F "_" '{print $1}' CDS_NCBIM37.bed | awk '{if($2<0) print}' >CDS_NCBIM37_v2.bed
+awk -F "_" '{print $1}' UTR5_NCBIM37.bed | awk '{if($2<0) print}' >UTR5_NCBIM37_v2.bed
+awk -F "_" '{print $1}' UTR3_NCBIM37.bed | awk '{if($2<0) print}' >UTR3_NCBIM37_v2.bed
 ```
