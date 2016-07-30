@@ -19,3 +19,11 @@ paste genes.txt transcripts.txt | awk '{print $1","$2}' >genes_transcripts.txt
 ```
 
 Please download UT3, UTR5, and CDS from [here](https://genome.ucsc.edu/cgi-bin/hgTables).
+
+Prepare them in the correct format:
+
+```
+awk -F "_" '{print $1}' CDS_NCBIM37.bed >CDS_NCBIM37_v2.bed
+awk -F "_" '{print $1}' UTR5_NCBIM37.bed >UTR5_NCBIM37_v2.bed
+awk -F "_" '{print $1}' UTR3_NCBIM37.bed >UTR3_NCBIM37_v2.bed
+```
