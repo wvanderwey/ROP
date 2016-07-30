@@ -18,4 +18,4 @@ Merge them into a single file:
 paste genes.txt transcripts.txt | awk '{print $1","$2}' >genes_transcripts.txt
 ```
 
-Please download UT3, UTR5, and CDS from here [here](https://genome.ucsc.edu/cgi-bin/hgTables).
+Please download UT3, UTR5, and CDS from [here](https://genome.ucsc.edu/cgi-bin/hgTables).
