@@ -35,6 +35,5 @@ python ../../../scripts/prepareBed.py UTR3_NCBIM37_v2.bed genes_transcripts.txt 
 
 python ../../../scripts/prepareBed.py UTR5_NCBIM37_v2.bed genes_transcripts.txt ../bedPrepared/geneCoordinates_NCBIM37.bed ../bedPrepared/UTR5_NCBIM37_prepared.bed m
 
-python ../../../scripts/prepareBed.py CDS_NCBIM37_v2.bed genes_transcripts.txt 
-../bedPrepared/geneCoordinates_NCBIM37.bed ../bedPrepared/CDS_NCBIM37_prepared.bed m
+python ../../../scripts/prepareBed.py CDS_NCBIM37_v2.bed genes_transcripts.txt ../bedPrepared/geneCoordinates_NCBIM37.bed ../bedPrepared/CDS_NCBIM37_prepared.bed m
 ```
