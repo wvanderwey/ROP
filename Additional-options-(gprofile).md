@@ -22,8 +22,7 @@ By using --perCategory option `gprofile.py` will generate the following:
 
 
 ```
-geneName,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron
-Qrsl1,0,1,1,0,0
+geneName,chr,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron
 Plekhg1,2,22,0,0,0
 Cand1,16,86,0,0,0
 2510003E04Rik,16,76,1,0,0
