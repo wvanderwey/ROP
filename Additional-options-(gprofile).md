@@ -7,7 +7,7 @@ readName,chr,category, geneID,geneName
 4029592_h_0_TCTGATG_CGAT,10,CDS,ENSMUSG00000015202,Cnksr3
 ```
 
-
+* --mouse option allows to run gprofile for mouse samples. Make sure to allign to genome/transcriptome from NCBIM37 release. 
 
 
 This is an example how to run gprofile with `--perCategory` and `--mouse` options:
