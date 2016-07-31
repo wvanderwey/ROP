@@ -15,6 +15,7 @@ We assume you have a basic knowledge of sequence analysis and of Unix-based oper
 ######[How to map reads and save unmapped reads?] (https://github.com/smangul1/rop/wiki/How-to-map-reads-and-save-unmapped-reads)
 ######[Source of every last read](https://github.com/smangul1/rop/wiki/Source-of-every-last-read)
 ######[Additional options](https://github.com/smangul1/rop/wiki/Additional-options)
+######[Additional options (gprofile)](https://github.com/smangul1/rop/wiki/Additional-options-(gprofile))
 ######[How to calculate immune diversity?](https://github.com/smangul1/rop/wiki/How-to-calculate-immune-diversity%3F)
 ######[Effect of the read length over the ability to infer VDJ recombinations](https://github.com/smangul1/rop/wiki/Effect-of-the-read-length-over-the-ability-to-infer-VDJ-recombinations)
 
