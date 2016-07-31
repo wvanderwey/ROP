@@ -15,3 +15,24 @@ This is an example how to run gprofile with `--perCategory` and `--mouse` option
 ```
 python /u/home/s/serghei/collab/code/rop/gprofile.py mapped_SJV040_CGAT.bam gProfile8/mapped_SJV040_CGAT.csv --perCategory --mouse
 ``` 
+
+By using --perCategory option `gprofile.py` will generate the following:
+
+
+
+
+```
+geneName,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron
+Qrsl1,0,1,1,0,0
+Plekhg1,2,22,0,0,0
+Cand1,16,86,0,0,0
+2510003E04Rik,16,76,1,0,0
+Tmcc3,0,8,0,2,0
+Spryd4,0,1,0,0,0
+Msl3l2,0,4,0,0,0
+Asf1a,0,8,0,0,0
+F630110N24Rik,1,2,0,0,0
+```
+
+
+
