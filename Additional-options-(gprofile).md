@@ -38,6 +38,16 @@ mapped_SJV040_CGAT.2.genomicFeature
 
 ```
 
+The format is the following:
+
+```
+readName,chr,category, geneID,geneName
+3730084_h_0_CGTGCTA_CGAT,19,junction,ENSMUSG00000024831,Ighmbp2
+3098258_h_1_GAACTTA_CGAT,19,CDS,ENSMUSG00000024831,Ighmbp2
+11015546_h_0_TTGGTTC_CGAT,19,CDS,ENSMUSG00000024831,Ighmbp2
+```
+
+* We will also summarize the number of junction, CDS, UTR3, UTR5, UTR_ per gene in the `mapped_SJV040_CGAT_perCategory/perGeneSummary` directory. 
 
 ```
 geneName,chr,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron
