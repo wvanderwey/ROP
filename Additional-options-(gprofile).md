@@ -13,12 +13,30 @@ readName,chr,category, geneID,geneName
 This is an example how to run gprofile with `--perCategory` and `--mouse` options:
 
 ```
-python /u/home/s/serghei/collab/code/rop/gprofile.py mapped_SJV040_CGAT.bam gProfile8/mapped_SJV040_CGAT.csv --perCategory --mouse
+python /u/home/s/serghei/collab/code/rop/gprofile.py mapped_SJV040_CGAT.bam gProfile15/mapped_SJV040_CGAT.csv --perCategory --mouse
 ``` 
 
 By using --perCategory option `gprofile.py` will generate the following:
 
+* A summary of the read assignment per chromosome. A separate file per chromosome will be created in `mapped_SJV040_CGAT_perCategory` directory. 
 
+Those are the files to be generated in `mapped_SJV040_CGAT_perCategory`:
+
+```
+mapped_SJV040_CGAT.10.genomicFeature  mapped_SJV040_CGAT.3.genomicFeature
+mapped_SJV040_CGAT.11.genomicFeature  mapped_SJV040_CGAT.4.genomicFeature
+mapped_SJV040_CGAT.12.genomicFeature  mapped_SJV040_CGAT.5.genomicFeature
+mapped_SJV040_CGAT.13.genomicFeature  mapped_SJV040_CGAT.6.genomicFeature
+mapped_SJV040_CGAT.14.genomicFeature  mapped_SJV040_CGAT.7.genomicFeature
+mapped_SJV040_CGAT.15.genomicFeature  mapped_SJV040_CGAT.8.genomicFeature
+mapped_SJV040_CGAT.16.genomicFeature  mapped_SJV040_CGAT.9.genomicFeature
+mapped_SJV040_CGAT.17.genomicFeature  mapped_SJV040_CGAT.MT.genomicFeature
+mapped_SJV040_CGAT.18.genomicFeature  mapped_SJV040_CGAT.X.genomicFeature
+mapped_SJV040_CGAT.19.genomicFeature  mapped_SJV040_CGAT.Y.genomicFeature
+mapped_SJV040_CGAT.1.genomicFeature   perGeneSummary
+mapped_SJV040_CGAT.2.genomicFeature
+
+```
 
 
 ```
