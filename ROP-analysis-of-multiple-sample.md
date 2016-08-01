@@ -41,7 +41,7 @@ chmod 755 *sh
 ```
 wc -l myFunc.sh
 ```
-- Lastly, use qsub to submit all of the samples at once
+- Lastly, use qsub to submit all of the samples
 
 ```
 #general example
