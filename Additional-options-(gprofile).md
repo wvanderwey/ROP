@@ -49,6 +49,25 @@ readName,chr,category, geneID,geneName
 
 * We will also summarize the number of junction, CDS, UTR3, UTR5, UTR_ per gene in the `mapped_SJV040_CGAT_perCategory/perGeneSummary` directory. 
 
+Those are the files to be generated in `mapped_SJV040_CGAT_perCategory/perGeneSummary`:
+
+```
+mapped_SJV040_CGAT.10.perGeneSummary  mapped_SJV040_CGAT.2.perGeneSummary
+mapped_SJV040_CGAT.11.perGeneSummary  mapped_SJV040_CGAT.3.perGeneSummary
+mapped_SJV040_CGAT.12.perGeneSummary  mapped_SJV040_CGAT.4.perGeneSummary
+mapped_SJV040_CGAT.13.perGeneSummary  mapped_SJV040_CGAT.5.perGeneSummary
+mapped_SJV040_CGAT.14.perGeneSummary  mapped_SJV040_CGAT.6.perGeneSummary
+mapped_SJV040_CGAT.15.perGeneSummary  mapped_SJV040_CGAT.7.perGeneSummary
+mapped_SJV040_CGAT.16.perGeneSummary  mapped_SJV040_CGAT.8.perGeneSummary
+mapped_SJV040_CGAT.17.perGeneSummary  mapped_SJV040_CGAT.9.perGeneSummary
+mapped_SJV040_CGAT.18.perGeneSummary  mapped_SJV040_CGAT.X.perGeneSummary
+mapped_SJV040_CGAT.19.perGeneSummary  mapped_SJV040_CGAT.Y.perGeneSummary
+mapped_SJV040_CGAT.1.perGeneSummary
+```
+
+
+The format is the following: 
+
 ```
 geneName,chr,nJunction,nCDS,nUTR3,nUTR5,nUTR_,nIntron
 Plekhg1,2,22,0,0,0
