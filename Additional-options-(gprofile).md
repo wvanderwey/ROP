@@ -47,7 +47,7 @@ readName,chr,category, geneID,geneName
 11015546_h_0_TTGGTTC_CGAT,19,CDS,ENSMUSG00000024831,Ighmbp2
 ```
 
-* We will also summarize the number of junction, CDS, UTR3, UTR5, UTR_ per gene in the `mapped_SJV040_CGAT_perCategory/perGeneSummary` directory. 
+* We will also summarize the number of junction, `CDS`, `UTR3`, `UTR5`, `UTR_`, `Intron` per gene in the `mapped_SJV040_CGAT_perCategory/perGeneSummary` directory. 
 
 Those are the files to be generated in `mapped_SJV040_CGAT_perCategory/perGeneSummary`:
 
